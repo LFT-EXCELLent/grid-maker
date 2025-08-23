@@ -1,11 +1,11 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "Smart-Pixels",
+  "short_name": "Smart-Pixels",
   "icons": [
     {
-      "src": "/android-chrome-96x96.png",
-      "sizes": "96x96",
-      "type": "image/png"
+      "src": "/static/favicons/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
     }
   ],
   "theme_color": "#000000",
