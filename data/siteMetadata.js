@@ -12,7 +12,7 @@ const siteMetadata = {
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   // mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'liangfutian0512@gmail.com',
+  email: 'support@smart-pixels.com',
   // github: 'https://github.com',
   x: 'https://x.com/Tim_AIProduct',
   // twitter: 'https://twitter.com/Twitter',
