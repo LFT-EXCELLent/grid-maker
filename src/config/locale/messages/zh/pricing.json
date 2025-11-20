@@ -1,0 +1,350 @@
+{
+  "metadata": {
+    "title": "价格 | Smart Pixels",
+    "description": "选择适合你的计划，开始 AI 图像生成。"
+  },
+  "pricing": {
+    "id": "pricing",
+    "sr_only_title": "Smart Pixels 价格",
+    "title": "价格",
+    "description": "获取 Smart Pixels 的全部功能，快速生成惊艳 AI 图像。",
+    "groups": [
+      {
+        "name": "one-time",
+        "title": "按次付费"
+      },
+      {
+        "name": "monthly",
+        "title": "包月",
+        "is_featured": true,
+        "label": "立省 25%"
+      },
+      {
+        "name": "yearly",
+        "title": "包年",
+        "label": "立省 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "入门版",
+        "description": "适合初学者与爱好者。",
+        "features_title": "包含",
+        "features": [
+          "300 积分，永不过期",
+          "最多 100 张图片",
+          "5+ AI 模型，100+ AI 图像工具",
+          "10+ 场景照片集",
+          "20+ 创作支持工具",
+          "每周专业人像 AI 生成教程",
+          "优先生成队列",
+          "无水印",
+          "允许商业使用",
+          "标准支持"
+        ],
+        "interval": "one-time",
+        "amount": 1299,
+        "currency": "USD",
+        "price": "$12.99",
+        "original_price": "$25.99",
+        "unit": "",
+        "is_featured": false,
+        "button": {
+          "title": "立即购买",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter",
+        "product_name": "Smart Pixels Boilerplate Starter",
+        "credits": 300,
+        "valid_days": 0,
+        "group": "one-time"
+      },
+      {
+        "title": "标准版",
+        "description": "适合个人项目。",
+        "label": "热门",
+        "features_title": "包含入门版功能，此外",
+        "features": [
+          "900 积分，永不过期",
+          "最多 300 张图片",
+          "5+ AI 模型，100+ AI 图像工具",
+          "10+ 场景照片集",
+          "20+ 创作支持工具",
+          "每周专业人像 AI 生成教程",
+          "优先生成队列",
+          "无水印",
+          "允许商业使用",
+          "优先支持"
+        ],
+        "interval": "one-time",
+        "amount": 2199,
+        "currency": "USD",
+        "price": "$21.99",
+        "original_price": "$43.99",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "立减 46% 立即购买",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "standard",
+        "product_name": "Smart Pixels Boilerplate Standard",
+        "credits": 900,
+        "valid_days": 0,
+        "group": "one-time"
+      },
+      {
+        "title": "高级版",
+        "description": "适合企业与代理机构。",
+        "features_title": "包含标准版功能，此外",
+        "features": [
+          "1800 积分，永不过期",
+          "最多 600 张图片",
+          "5+ AI 模型，100+ AI 图像工具",
+          "10+ 场景照片集",
+          "20+ 创作支持工具",
+          "每周专业人像 AI 生成教程",
+          "优先生成队列",
+          "无水印",
+          "允许商业使用",
+          "优先支持"
+        ],
+        "interval": "one-time",
+        "amount": 3199,
+        "currency": "USD",
+        "price": "$31.99",
+        "original_price": "$63.99",
+        "unit": "",
+        "is_featured": false,
+        "button": {
+          "title": "立减 58% 立即购买",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium",
+        "product_name": "Smart Pixels Boilerplate Premium",
+        "credits": 1800,
+        "valid_days": 0,
+        "group": "one-time"
+      },
+      {
+        "title": "入门版",
+        "description": "适合初学者与爱好者。",
+        "features_title": "包含",
+        "features": [
+          "300 积分，按月重置",
+          "最多 100 张图片",
+          "5+ AI 模型，100+ AI 图像工具",
+          "10+ 场景照片集",
+          "20+ 创作支持工具",
+          "每周专业人像 AI 生成教程",
+          "优先生成队列",
+          "无水印",
+          "允许商业使用",
+          "标准支持"
+        ],
+        "interval": "month",
+        "amount": 999,
+        "currency": "USD",
+        "price": "$9.99",
+        "original_price": "$19.99",
+        "unit": "/ 月",
+        "is_featured": false,
+        "button": {
+          "title": "立即订阅",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "Smart Pixels Boilerplate Starter Monthly",
+        "credits": 300,
+        "valid_days": 30,
+        "group": "monthly",
+        "plan_name": "入门版"
+      },
+      {
+        "title": "标准版",
+        "description": "适合个人项目。",
+        "label": "热门",
+        "features_title": "包含入门版功能，此外",
+        "features": [
+          "900 积分，按月重置",
+          "最多 300 张图片",
+          "5+ AI 模型，100+ AI 图像工具",
+          "10+ 场景照片集",
+          "20+ 创作支持工具",
+          "每周专业人像 AI 生成教程",
+          "优先生成队列",
+          "无水印",
+          "允许商业使用",
+          "优先支持"
+        ],
+        "interval": "month",
+        "amount": 1599,
+        "currency": "USD",
+        "price": "$15.99",
+        "original_price": "$31.99",
+        "unit": "/ 月",
+        "is_featured": true,
+        "button": {
+          "title": "立减 46% 立即订阅",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "standard-monthly",
+        "product_name": "Smart Pixels Boilerplate Standard Monthly",
+        "credits": 900,
+        "valid_days": 30,
+        "group": "monthly",
+        "plan_name": "标准版"
+      },
+      {
+        "title": "高级版",
+        "description": "适合企业与代理机构。",
+        "features_title": "包含标准版功能，此外",
+        "features": [
+          "1800 积分，按月重置",
+          "最多 600 张图片",
+          "5+ AI 模型，100+ AI 图像工具",
+          "10+ 场景照片集",
+          "20+ 创作支持工具",
+          "每周专业人像 AI 生成教程",
+          "优先生成队列",
+          "无水印",
+          "允许商业使用",
+          "优先支持"
+        ],
+        "interval": "month",
+        "amount": 2499,
+        "currency": "USD",
+        "price": "$24.99",
+        "original_price": "$49.99",
+        "unit": "/ 月",
+        "is_featured": false,
+        "button": {
+          "title": "立减 58% 立即订阅",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "Smart Pixels Boilerplate Premium Monthly",
+        "credits": 1800,
+        "valid_days": 30,
+        "group": "monthly",
+        "plan_name": "高级版"
+      },
+      {
+        "title": "入门版",
+        "description": "适合初学者与爱好者。",
+        "features_title": "包含",
+        "features": [
+          "3600 积分，按年重置",
+          "最多 1200 张图片",
+          "5+ AI 模型，100+ AI 图像工具",
+          "10+ 场景照片集",
+          "20+ 创作支持工具",
+          "每周专业人像 AI 生成教程",
+          "优先生成队列",
+          "无水印",
+          "允许商业使用",
+          "标准支持"
+        ],
+        "interval": "year",
+        "amount": 9588,
+        "currency": "USD",
+        "price": "$7.99",
+        "original_price": "$15.99",
+        "unit": "/ 月",
+        "is_featured": false,
+        "button": {
+          "title": "立即订阅",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "Smart Pixels Boilerplate Starter Annually",
+        "credits": 3600,
+        "valid_days": 365,
+        "group": "yearly",
+        "plan_name": "入门版"
+      },
+      {
+        "title": "标准版",
+        "description": "适合个人项目。",
+        "label": "热门",
+        "features_title": "包含入门版功能，此外",
+        "features": [
+          "10800 积分，按年重置",
+          "最多 3600 张图片",
+          "5+ AI 模型，100+ AI 图像工具",
+          "10+ 场景照片集",
+          "20+ 创作支持工具",
+          "每周专业人像 AI 生成教程",
+          "优先生成队列",
+          "无水印",
+          "允许商业使用",
+          "优先支持"
+        ],
+        "interval": "year",
+        "amount": 15588,
+        "currency": "USD",
+        "price": "$12.99",
+        "original_price": "$25.99",
+        "unit": "/ 月",
+        "is_featured": true,
+        "button": {
+          "title": "立减 46% 立即订阅",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "standard-yearly",
+        "product_name": "Smart Pixels Boilerplate Standard Annually",
+        "credits": 10800,
+        "valid_days": 365,
+        "group": "yearly",
+        "plan_name": "标准版"
+      },
+      {
+        "title": "高级版",
+        "description": "适合企业与代理机构。",
+        "features_title": "包含标准版功能，此外",
+        "features": [
+          "21600 积分，按年重置",
+          "最多 7200 张图片",
+          "5+ AI 模型，100+ AI 图像工具",
+          "10+ 场景照片集",
+          "20+ 创作支持工具",
+          "每周专业人像 AI 生成教程",
+          "优先生成队列",
+          "无水印",
+          "允许商业使用",
+          "优先支持"
+        ],
+        "interval": "year",
+        "amount": 23988,
+        "currency": "USD",
+        "price": "$19.99",
+        "original_price": "$39.99",
+        "unit": "/ 月",
+        "is_featured": false,
+        "button": {
+          "title": "立减 58% 立即订阅",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "Smart Pixels Boilerplate Premium Annually",
+        "credits": 21600,
+        "valid_days": 365,
+        "group": "yearly",
+        "plan_name": "高级版"
+      }
+    ]
+  },
+  "page": {
+    "current_plan": "当前方案",
+    "processing": "处理中"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "title": "AI 人像生成器与编辑器案例 ｜ Smart Pixels",
+    "description": "以最低成本打造最完美的照片集"
+  },
+  "showcases": {
+    "id": "showcase",
+    "sr_only_title": "案例展示",
+    "title": "使用 Smart Pixels 的 AI 人像生成器与编辑器",
+    "description": "效果媲美影棚，价格仅为传统摄影的十分之一。",
+    "items": [
+      {
+        "title": "影棚肖像",
+        "description": "AI 影棚肖像生成器",
+        "image": {
+          "src": "/imgs/cases/1.png",
+          "alt": "影棚肖像"
+        }
+      },
+      {
+        "title": "婴儿肖像",
+        "description": "AI 婴儿肖像生成器",
+        "image": {
+          "src": "/imgs/cases/2.png",
+          "alt": "婴儿肖像"
+        }
+      },
+      {
+        "title": "旅行摄影",
+        "description": "AI 旅行摄影生成器",
+        "image": {
+          "src": "/imgs/cases/3.png",
+          "alt": "旅行摄影"
+        }
+      },
+      {
+        "title": "婚礼摄影",
+        "description": "AI 婚礼摄影生成器",
+        "image": {
+          "src": "/imgs/cases/4.png",
+          "alt": "婚礼摄影"
+        }
+      },
+      {
+        "title": "自拍修图",
+        "description": "AI 自拍修图编辑器",
+        "image": {
+          "src": "/imgs/cases/5.png",
+          "alt": "自拍修图"
+        }
+      },
+      {
+        "title": "孕妇摄影",
+        "description": "AI 孕妇摄影生成器",
+        "image": {
+          "src": "/imgs/cases/6.png",
+          "alt": "孕妇摄影"
+        }
+      }
+    ]
+  }
+}

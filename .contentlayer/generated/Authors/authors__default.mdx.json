@@ -1,0 +1,31 @@
+{
+  "name": "Tim",
+  "avatar": "/static/images/avatar.png",
+  "occupation": "Indie Hacker",
+  "company": null,
+  "email": "liangfutian0512@gmail.com",
+  "twitter": "https://x.com/Tim_AIProduct",
+  "body": {
+    "raw": "\nHello, and welcome to my blog. My name is Tim, a former B2B product developer who has embarked on a new journey as a solo creator. My focus? The dynamic world of AI imaging.\n\nThis blog is my personal chronicle, filled with original insights and hands-on experience in AI-powered creativity. Here, I break down the latest industry trends, explain complex AI models, and offer practical guides on everything from prompt engineering to tool reviews. I'm especially passionate about using AI to create stunning two-dimensional art and explore new digital collectibles.\n\nEvery post is a result of my dedication to demystifying AI and making it accessible to creators and professionals alike.\n\nI am a strong believer in continuous learning and professional exchange. If you are a leader, developer, or a fellow enthusiast in the tech or creative space, I welcome you to connect and share your knowledge. Let's explore and grow in this exciting field together!\n",
+    "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var t in e)i(n,t,{get:e[t],enumerable:!0})},s=(n,e,t,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of u(e))!f.call(n,a)&&a!==t&&i(n,a,{get:()=>e[a],enumerable:!(r=g(e,a))||r.enumerable});return n};var w=(n,e,t)=>(t=n!=null?p(h(n)):{},s(e||!n||!n.__esModule?i(t,\"default\",{value:n,enumerable:!0}):t,n)),I=n=>s(i({},\"__esModule\",{value:!0}),n);var c=y((j,l)=>{l.exports=_jsx_runtime});var b={};x(b,{default:()=>m,frontmatter:()=>v});var o=w(c()),v={name:\"Tim\",avatar:\"/static/images/avatar.png\",occupation:\"Indie Hacker\",company:null,email:\"liangfutian0512@gmail.com\",twitter:\"https://x.com/Tim_AIProduct\"};function d(n){let e={p:\"p\",...n.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(e.p,{children:\"Hello, and welcome to my blog. My name is Tim, a former B2B product developer who has embarked on a new journey as a solo creator. My focus? The dynamic world of AI imaging.\"}),(0,o.jsx)(e.p,{children:\"This blog is my personal chronicle, filled with original insights and hands-on experience in AI-powered creativity. Here, I break down the latest industry trends, explain complex AI models, and offer practical guides on everything from prompt engineering to tool reviews. I'm especially passionate about using AI to create stunning two-dimensional art and explore new digital collectibles.\"}),(0,o.jsx)(e.p,{children:\"Every post is a result of my dedication to demystifying AI and making it accessible to creators and professionals alike.\"}),(0,o.jsx)(e.p,{children:\"I am a strong believer in continuous learning and professional exchange. If you are a leader, developer, or a fellow enthusiast in the tech or creative space, I welcome you to connect and share your knowledge. Let's explore and grow in this exciting field together!\"})]})}function m(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(d,{...n})}):d(n)}return I(b);})();\n;return Component;"
+  },
+  "_id": "authors/default.mdx",
+  "_raw": {
+    "sourceFilePath": "authors/default.mdx",
+    "sourceFileName": "default.mdx",
+    "sourceFileDir": "authors",
+    "contentType": "mdx",
+    "flattenedPath": "authors/default"
+  },
+  "type": "Authors",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.775,
+    "time": 46500,
+    "words": 155
+  },
+  "slug": "default",
+  "path": "authors/default",
+  "filePath": "authors/default.mdx",
+  "toc": []
+}

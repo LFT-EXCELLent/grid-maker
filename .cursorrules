@@ -1,0 +1,114 @@
+# Project: Next.js Boilerplate Application
+
+## General
+
+- This is a Next.js TypeScript application with App Router.
+- Use React for components development, prefer to use functional components.
+- Use Tailwind CSS for styling.
+- Use Shadcn UI components.
+- Use sonner for toast notifications.
+- Use React Context for state management.
+- Component names are in CamelCase.
+- Use next-auth for authentication.
+- Use next-intl for internationalization.
+- Use Stripe for payment.
+
+## File Structure
+
+- src/app/: Next.js App Router pages and API routes
+  - [locale]/: Locale-specific pages
+  - api/: API routes (e.g. checkout)
+  - theme.css: Theme styles
+- src/components/: React components
+  - blocks/: Layout blocks (header, footer, etc.), commonly used in Landing Page
+  - ui/: Reusable UI components
+- src/contexts/: React contexts (e.g. app context)
+- src/i18n/: Internationalization
+  - pages/landing/: Page-specific translations for Landing Page
+  - messages/: Global messages
+- src/types/: TypeScript type definitions
+  - blocks/: Types for layout blocks
+  - pages/: Types for pages
+- src/models/: Data models and data operations.
+- src/services/: Business logics.
+- src/lib/: Custom libraries and functions
+- public/: Static assets
+- .env.development: Development environment variables
+
+## Coding Conventions
+
+- Use TypeScript for type safety
+- Follow React best practices and hooks
+- Implement responsive design with Tailwind CSS and Shadcn UI
+- Maintain consistent internationalization structure
+- Keep components modular and reusable
+- Use proper type definitions for components and data
+
+---
+
+# AI Assistant Three-Phase Workflow
+
+## Phase 1: Analyze Problem
+
+**Declaration Format**: `【分析问题】`
+
+**Purpose**
+Since there may be multiple viable solutions, sufficient evidence is needed to make the right decision.
+
+**Must Do**:
+- Understand the user's intent; ask for clarification if ambiguous
+- Search all relevant code
+- Identify root causes of problems
+
+**Proactively Discover Issues**
+- Find duplicate code
+- Identify unreasonable naming
+- Find redundant code and classes
+- Discover potentially outdated designs
+- Find overly complex designs and calls
+- Discover inconsistent type definitions
+- Further search code to see if similar issues exist in a larger scope
+
+After completing the above tasks, you can ask the user questions.
+
+**Absolutely Forbidden**:
+- ❌ Modify any code
+- ❌ Rush to provide solutions
+- ❌ Skip search and understanding steps
+- ❌ Recommend solutions without analysis
+
+**Phase Transition Rules**
+In this phase, you must ask the user questions.
+If there are multiple options you cannot decide between, ask the user as part of your questioning.
+If there are no questions to ask, proceed directly to the next phase.
+
+## Phase 2: Plan Solution
+
+**Declaration Format**: `【制定方案】`
+
+**Prerequisites**:
+- The user has clearly answered key technical decisions.
+
+**Must Do**:
+- List changes (add, modify, delete) to files with brief descriptions of each file's changes
+- Eliminate duplicate logic: if duplicate code is found, it must be eliminated through reuse or abstraction
+- Ensure modified code follows DRY principles and good architectural design
+
+If new key decisions requiring user input are discovered in this phase, you can continue to ask the user questions until all ambiguities are resolved. This phase cannot automatically transition to the next phase.
+
+## Phase 3: Execute Solution
+
+**Declaration Format**: `【执行方案】`
+
+**Must Do**:
+- Strictly implement according to the selected solution
+- Run type checking after modifications
+
+**Absolutely Forbidden**:
+- ❌ Commit code (unless explicitly requested by user)
+- ❌ Start development server
+
+If uncertain issues are discovered in this phase, ask the user questions.
+
+**Workflow Instructions**
+When receiving user messages, generally start from Phase 1 (Analyze Problem) unless the user explicitly specifies a phase name.

@@ -1,0 +1,350 @@
+{
+  "metadata": {
+    "title": "Pricing for AI Portrait Generator & Editor | Smart Pixels",
+    "description": "Start with a plan for your AI image generation needs."
+  },
+  "pricing": {
+    "id": "pricing",
+    "sr_only_title": "Smart Pixels Pricing",
+    "title": "Pricing",
+    "description": "Limited time offer! Save 50% off all plans, generating each image costs as low as $0.03.",
+    "groups": [
+      {
+        "name": "one-time",
+        "title": "Pay as you go"
+      },
+      {
+        "name": "monthly",
+        "title": "Monthly",
+        "is_featured": true,
+        "label": "save 25%"
+      },
+      {
+        "name": "yearly",
+        "title": "Annually",
+        "label": "save 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "Starter",
+        "description": "Perfect for beginners and hobbyists.",
+        "features_title": "Includes",
+        "features": [
+          "300 credits, never expires",
+          "up to 100 images",
+          "5+ AI models, 100+ AI Image Tools",
+          "10+ Scene photo album",
+          "20+ Creation Support Tools",
+          "Weekly professional portrait AI generation tutorial",
+          "Priority generation queue",
+          "No watermark",
+          "Commercial use allowed",
+          "Normal support"
+        ],
+        "interval": "one-time",
+        "amount": 1299,
+        "currency": "USD",
+        "price": "$12.99",
+        "original_price": "$25.99",
+        "unit": "",
+        "is_featured": false,
+        "button": {
+          "title": "Buy Now",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter",
+        "product_name": "Smart Pixels Boilerplate Starter",
+        "credits": 300,
+        "valid_days": 0,
+        "group": "one-time"
+      },
+      {
+        "title": "Standard",
+        "description": "Perfect for personal projects",
+        "label": "Popular",
+        "features_title": "Everything in Starter, plus",
+        "features": [
+          "900 credits, never expires",
+          "up to 300 images",
+          "5+ AI models, 100+ AI Image Tools",
+          "10+ Scene photo album",
+          "20+ Creation Support Tools",
+          "Weekly professional portrait AI generation tutorial",
+          "Priority generation queue",
+          "No watermark",
+          "Commercial use allowed",
+          "Priority support"
+        ],
+        "interval": "one-time",
+        "amount": 2199,
+        "currency": "USD",
+        "price": "$21.99",
+        "original_price": "$43.99",
+        "unit": "",
+        "is_featured": true,
+        "button": {
+          "title": "Buy Now & Save 46%",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "standard",
+        "product_name": "Smart Pixels Boilerplate Standard",
+        "credits": 900,
+        "valid_days": 0,
+        "group": "one-time"
+      },
+      {
+        "title": "Premium",
+        "description": "Perfect for businesses and agencies",
+        "features_title": "Everything in Standard, plus",
+        "features": [
+          "1800 credits, never expires",
+          "up to 600 images",
+          "5+ AI models, 100+ AI Image Tools",
+          "10+ Scene photo album",
+          "20+ Creation Support Tools",
+          "Weekly professional portrait AI generation tutorial",
+          "Priority generation queue",
+          "No watermark",
+          "Commercial use allowed",
+          "Priority support"
+        ],
+        "interval": "one-time",
+        "amount": 3199,
+        "currency": "USD",
+        "price": "$31.99",
+        "original_price": "$63.99",
+        "unit": "",
+        "is_featured": false,
+        "button": {
+          "title": "Buy Now & Save 58%",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium",
+        "product_name": "Smart Pixels Boilerplate Premium",
+        "credits": 1800,
+        "valid_days": 0,
+        "group": "one-time"
+      },
+      {
+        "title": "Starter",
+        "description": "Perfect for beginners and hobbyists",
+        "features_title": "Includes",
+        "features": [
+          "300 credits, reset monthly",
+          "up to 100 images",
+          "5+ AI models, 100+ AI Image Tools",
+          "10+ Scene photo album",
+          "20+ Creation Support Tools",
+          "Weekly professional portrait AI generation tutorial",
+          "Priority generation queue",
+          "No watermark",
+          "Commercial use allowed",
+          "Normal support"
+        ],
+        "interval": "month",
+        "amount": 999,
+        "currency": "USD",
+        "price": "$9.99",
+        "original_price": "$19.99",
+        "unit": "/ month",
+        "is_featured": false,
+        "button": {
+          "title": "Subscribe Now",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "Smart Pixels Boilerplate Starter Monthly",
+        "credits": 300,
+        "valid_days": 30,
+        "group": "monthly",
+        "plan_name": "Starter"
+      },
+      {
+        "title": "Standard",
+        "description": "Perfect for personal projects",
+        "label": "Popular",
+        "features_title": "Everything in Starter, plus",
+        "features": [
+          "900 credits, reset monthly",
+          "up to 300 images",
+          "5+ AI models, 100+ AI Image Tools",
+          "10+ Scene photo album",
+          "20+ Creation Support Tools",
+          "Weekly professional portrait AI generation tutorial",
+          "Priority generation queue",
+          "No watermark",
+          "Commercial use allowed",
+          "Priority support"
+        ],
+        "interval": "month",
+        "amount": 1599,
+        "currency": "USD",
+        "price": "$15.99",
+        "original_price": "$31.99",
+        "unit": "/ month",
+        "is_featured": true,
+        "button": {
+          "title": "Subscribe Now & Save 46%",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "standard-monthly",
+        "product_name": "Smart Pixels Boilerplate Standard Monthly",
+        "credits": 900,
+        "valid_days": 30,
+        "group": "monthly",
+        "plan_name": "Standard"
+      },
+      {
+        "title": "Premium",
+        "description": "Perfect for businesses and agencies",
+        "features_title": "Everything in Standard, plus",
+        "features": [
+          "1800 credits, reset monthly",
+          "up to 600 images",
+          "5+ AI models, 100+ AI Image Tools",
+          "10+ Scene photo album",
+          "20+ Creation Support Tools",
+          "Weekly professional portrait AI generation tutorial",
+          "Priority generation queue",
+          "No watermark",
+          "Commercial use allowed",
+          "Priority support"
+        ],
+        "interval": "month",
+        "amount": 2499,
+        "currency": "USD",
+        "price": "$24.99",
+        "original_price": "$49.99",
+        "unit": "/ month",
+        "is_featured": false,
+        "button": {
+          "title": "Subscribe Now & Save 58%",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "Smart Pixels Boilerplate Premium Monthly",
+        "credits": 1800,
+        "valid_days": 30,
+        "group": "monthly",
+        "plan_name": "Premium"
+      },
+      {
+        "title": "Starter",
+        "description": "Perfect for beginners and hobbyists",
+        "features_title": "Includes",
+        "features": [
+          "3600 credits, reset yearly",
+          "up to 1200 images",
+          "5+ AI models, 100+ AI Image Tools",
+          "10+ Scene photo album",
+          "20+ Creation Support Tools",
+          "Weekly professional portrait AI generation tutorial",
+          "Priority generation queue",
+          "No watermark",
+          "Commercial use allowed",
+          "Normal support"
+        ],
+        "interval": "year",
+        "amount": 9588,
+        "currency": "USD",
+        "price": "$7.99",
+        "original_price": "$15.99",
+        "unit": "/ month",
+        "is_featured": false,
+        "button": {
+          "title": "Subscribe Now",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "Smart Pixels Boilerplate Starter Annually",
+        "credits": 3600,
+        "valid_days": 365,
+        "group": "yearly",
+        "plan_name": "Starter"
+      },
+      {
+        "title": "Standard",
+        "description": "Perfect for personal projects",
+        "label": "Popular",
+        "features_title": "Everything in Starter, plus",
+        "features": [
+          "10800 credits, reset yearly",
+          "up to 3600 images",
+          "5+ AI models, 100+ AI Image Tools",
+          "10+ Scene photo album",
+          "20+ Creation Support Tools",
+          "Weekly professional portrait AI generation tutorial",
+          "Priority generation queue",
+          "No watermark",
+          "Commercial use allowed",
+          "Priority support"
+        ],
+        "interval": "year",
+        "amount": 15588,
+        "currency": "USD",
+        "price": "$12.99",
+        "original_price": "$25.99",
+        "unit": "/ month",
+        "is_featured": true,
+        "button": {
+          "title": "Subscribe Now & Save 46%",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "standard-yearly",
+        "product_name": "Smart Pixels Boilerplate Standard Annually",
+        "credits": 10800,
+        "valid_days": 365,
+        "group": "yearly",
+        "plan_name": "Standard"
+      },
+      {
+        "title": "Premium",
+        "description": "Perfect for businesses and agencies",
+        "features_title": "Everything in Standard, plus",
+        "features": [
+          "21600 credits, reset yearly",
+          "up to 7200 images",
+          "5+ AI models, 100+ AI Image Tools",
+          "10+ Scene photo album",
+          "20+ Creation Support Tools",
+          "Weekly professional portrait AI generation tutorial",
+          "Priority generation queue",
+          "No watermark",
+          "Commercial use allowed",
+          "Priority support"
+        ],
+        "interval": "year",
+        "amount": 23988,
+        "currency": "USD",
+        "price": "$19.99",
+        "original_price": "$39.99",
+        "unit": "/ month",
+        "is_featured": false,
+        "button": {
+          "title": "Subscribe Now & Save 58%",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "Smart Pixels Boilerplate Premium Annually",
+        "credits": 21600,
+        "valid_days": 365,
+        "group": "yearly",
+        "plan_name": "Premium"
+      }
+    ]
+  },
+  "page": {
+    "current_plan": "Current Plan",
+    "processing": "Processing"
+  }
+}

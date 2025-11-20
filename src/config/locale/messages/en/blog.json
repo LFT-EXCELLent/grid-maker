@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "title": "Focus on AI Portrait Generation & Editing Blog ｜ Smart Pixels",
+    "description": "Regularly share fun, popular AI portrait workflows, highlight great prompts and creations, and cover the latest developments in AI imaging"
+  },
+  "blog": {
+    "id": "blog",
+    "sr_only_title": "Smart Pixels Blog",
+    "title": "Smart Pixels Blog",
+    "description": "Regularly share fun, popular AI portrait workflows,\nhighlight great prompts and creations, and cover the latest developments in AI imaging"
+  },
+  "page": {
+    "all": "All",
+    "no_content": "No Content",
+    "crumb": "Blog",
+    "toc": "Table of Contents"
+  }
+}

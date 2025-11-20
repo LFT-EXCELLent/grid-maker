@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "title": "聚焦 AI 人像生成与编辑的博客 ｜ Smart Pixels",
+    "description": "定期分享有趣、热门的 AI 人像玩法，展示优秀提示词与作品，播报 AI 图像领域最新动态"
+  },
+  "blog": {
+    "id": "blog",
+    "sr_only_title": "Smart Pixels 博客",
+    "title": "Smart Pixels 博客",
+    "description": "定期分享有趣、热门的 AI 人像玩法，展示优秀提示词与作品，\n播报 AI 图像领域最新动态"
+  },
+  "page": {
+    "all": "全部",
+    "no_content": "暂无内容",
+    "crumb": "博客",
+    "toc": "目录"
+  }
+}

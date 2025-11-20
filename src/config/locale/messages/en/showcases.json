@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "title": "AI Portrait Generator & Editor Showcases ｜ Smart Pixels",
+    "description": "Create the most perfect photo album at the lowest cost."
+  },
+  "showcases": {
+    "id": "showcase",
+    "sr_only_title": "Showcases",
+    "title": "AI Portrait Generator & Editor with Smart Pixels",
+    "description": "The effect is comparable to a studio, but the price is only 1/10 of traditional photography.",
+    "items": [
+      {
+        "title": "Studio portrait",
+        "description": "AI Studio Portrait Generator",
+        "image": {
+          "src": "/imgs/cases/1.png",
+          "alt": "Studio portrait"
+        }
+      },
+      {
+        "title": "Baby portrait",
+        "description": "AI Baby Portrait Generator",
+        "image": {
+          "src": "/imgs/cases/2.png",
+          "alt": "Baby portrait"
+        }
+      },
+      {
+        "title": "Travel photography",
+        "description": "AI Travel Photography Generator",
+        "image": {
+          "src": "/imgs/cases/3.png",
+          "alt": "Travel photography"
+        }
+      },
+      {
+        "title": "Wedding photography",
+        "description": "AI Wedding Photography Generator",
+        "image": {
+          "src": "/imgs/cases/4.png",
+          "alt": "Wedding photography"
+        }
+      },
+      {
+        "title": "Selfie retouch",
+        "description": "AI Selfie Retouch Editor",
+        "image": {
+          "src": "/imgs/cases/5.png",
+          "alt": "Selfie retouch"
+        }
+      },
+      {
+        "title": "Pregnancy photography",
+        "description": "AI Pregnancy Photography Generator",
+        "image": {
+          "src": "/imgs/cases/6.png",
+          "alt": "Pregnancy photography"
+        }
+      }
+    ]
+  }
+}

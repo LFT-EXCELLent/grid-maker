@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Tim",
+    "avatar": "/static/images/avatar.png",
+    "occupation": "Indie Hacker",
+    "company": null,
+    "email": "liangfutian0512@gmail.com",
+    "twitter": "https://x.com/Tim_AIProduct",
+    "body": {
+      "raw": "\nHello, and welcome to my blog. My name is Tim, a former B2B product developer who has embarked on a new journey as a solo creator. My focus? The dynamic world of AI imaging.\n\nThis blog is my personal chronicle, filled with original insights and hands-on experience in AI-powered creativity. Here, I break down the latest industry trends, explain complex AI models, and offer practical guides on everything from prompt engineering to tool reviews. I'm especially passionate about using AI to create stunning two-dimensional art and explore new digital collectibles.\n\nEvery post is a result of my dedication to demystifying AI and making it accessible to creators and professionals alike.\n\nI am a strong believer in continuous learning and professional exchange. If you are a leader, developer, or a fellow enthusiast in the tech or creative space, I welcome you to connect and share your knowledge. Let's explore and grow in this exciting field together!\n",
+      "code": "var Component=(()=>{var p=Object.create;var i=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),x=(n,e)=>{for(var t in e)i(n,t,{get:e[t],enumerable:!0})},s=(n,e,t,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of u(e))!f.call(n,a)&&a!==t&&i(n,a,{get:()=>e[a],enumerable:!(r=g(e,a))||r.enumerable});return n};var w=(n,e,t)=>(t=n!=null?p(h(n)):{},s(e||!n||!n.__esModule?i(t,\"default\",{value:n,enumerable:!0}):t,n)),I=n=>s(i({},\"__esModule\",{value:!0}),n);var c=y((j,l)=>{l.exports=_jsx_runtime});var b={};x(b,{default:()=>m,frontmatter:()=>v});var o=w(c()),v={name:\"Tim\",avatar:\"/static/images/avatar.png\",occupation:\"Indie Hacker\",company:null,email:\"liangfutian0512@gmail.com\",twitter:\"https://x.com/Tim_AIProduct\"};function d(n){let e={p:\"p\",...n.components};return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(e.p,{children:\"Hello, and welcome to my blog. My name is Tim, a former B2B product developer who has embarked on a new journey as a solo creator. My focus? The dynamic world of AI imaging.\"}),(0,o.jsx)(e.p,{children:\"This blog is my personal chronicle, filled with original insights and hands-on experience in AI-powered creativity. Here, I break down the latest industry trends, explain complex AI models, and offer practical guides on everything from prompt engineering to tool reviews. I'm especially passionate about using AI to create stunning two-dimensional art and explore new digital collectibles.\"}),(0,o.jsx)(e.p,{children:\"Every post is a result of my dedication to demystifying AI and making it accessible to creators and professionals alike.\"}),(0,o.jsx)(e.p,{children:\"I am a strong believer in continuous learning and professional exchange. If you are a leader, developer, or a fellow enthusiast in the tech or creative space, I welcome you to connect and share your knowledge. Let's explore and grow in this exciting field together!\"})]})}function m(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(d,{...n})}):d(n)}return I(b);})();\n;return Component;"
+    },
+    "_id": "authors/default.mdx",
+    "_raw": {
+      "sourceFilePath": "authors/default.mdx",
+      "sourceFileName": "default.mdx",
+      "sourceFileDir": "authors",
+      "contentType": "mdx",
+      "flattenedPath": "authors/default"
+    },
+    "type": "Authors",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.775,
+      "time": 46500,
+      "words": 155
+    },
+    "slug": "default",
+    "path": "authors/default",
+    "filePath": "authors/default.mdx",
+    "toc": []
+  },
+  {
+    "name": "Sparrow Hawk",
+    "avatar": "/static/images/sparrowhawk-avatar.jpg",
+    "occupation": "Wizard of Earthsea",
+    "company": "Earthsea",
+    "twitter": "https://twitter.com/sparrowhawk",
+    "linkedin": "https://www.linkedin.com/sparrowhawk",
+    "body": {
+      "raw": "\nAt birth, Ged was given the child-name Duny by his mother. He was born on the island of Gont, as a son of a bronzesmith. His mother died before he reached the age of one. As a small boy, Ged had overheard the village witch, his maternal aunt, using various words of power to call goats. Ged later used the words without an understanding of their meanings, to surprising effect.\n\nThe witch knew that using words of power effectively without understanding them required innate power, so she endeavored to teach him what little she knew. After learning more from her, he was able to call animals to him. Particularly, he was seen in the company of wild sparrowhawks so often that his \"use name\" became Sparrowhawk.\n",
+      "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!f.call(e,r)&&r!==n&&o(e,r,{get:()=>t[r],enumerable:!(s=l(t,r))||s.enumerable});return e};var x=(e,t,n)=>(n=e!=null?m(u(e)):{},i(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var w=g((j,h)=>{h.exports=_jsx_runtime});var y={};k(y,{default:()=>d,frontmatter:()=>v});var a=x(w()),v={name:\"Sparrow Hawk\",avatar:\"/static/images/sparrowhawk-avatar.jpg\",occupation:\"Wizard of Earthsea\",company:\"Earthsea\",twitter:\"https://twitter.com/sparrowhawk\",linkedin:\"https://www.linkedin.com/sparrowhawk\"};function c(e){let t={p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.p,{children:\"At birth, Ged was given the child-name Duny by his mother. He was born on the island of Gont, as a son of a bronzesmith. His mother died before he reached the age of one. As a small boy, Ged had overheard the village witch, his maternal aunt, using various words of power to call goats. Ged later used the words without an understanding of their meanings, to surprising effect.\"}),(0,a.jsx)(t.p,{children:'The witch knew that using words of power effectively without understanding them required innate power, so she endeavored to teach him what little she knew. After learning more from her, he was able to call animals to him. Particularly, he was seen in the company of wild sparrowhawks so often that his \"use name\" became Sparrowhawk.'})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return b(y);})();\n;return Component;"
+    },
+    "_id": "authors/sparrowhawk.mdx",
+    "_raw": {
+      "sourceFilePath": "authors/sparrowhawk.mdx",
+      "sourceFileName": "sparrowhawk.mdx",
+      "sourceFileDir": "authors",
+      "contentType": "mdx",
+      "flattenedPath": "authors/sparrowhawk"
+    },
+    "type": "Authors",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.63,
+      "time": 37800,
+      "words": 126
+    },
+    "slug": "sparrowhawk",
+    "path": "authors/sparrowhawk",
+    "filePath": "authors/sparrowhawk.mdx",
+    "toc": []
+  }
+]

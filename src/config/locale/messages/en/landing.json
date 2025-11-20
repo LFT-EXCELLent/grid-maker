@@ -1,0 +1,644 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "Smart Pixels",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Smart Pixels"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Portrait Retouch",
+          "url": "/",
+          "icon": "RiImage2Line"
+        },
+        {
+          "title": "AI Tools",
+          "icon": "Sparkles",
+          "children": [
+            {
+              "dropdown_title": "AI Image Models",
+              "layout": "single",
+              "items": [
+                {
+                  "title": "Nano Banana",
+                  "description": "Retouch portraits with Nano Banana",
+                  "icon": "RiImage2Line",
+                  "badge": "Coming"
+                },
+                {
+                  "title": "Seedream 4.0",
+                  "description": "Retouch portraits with Seedream 4.0",
+                  "icon": "RiImage2Line",
+                  "badge": "Coming"
+                }
+              ]
+            },
+            {
+              "dropdown_title": "General Tools",
+              "layout": "single",
+              "items": [
+                {
+                  "title": "Watermark",
+                  "description": "Remove watermarks from images",
+                  "icon": "RiImage2Line",
+                  "badge": "Coming"
+                },
+                {
+                  "title": "Img Upscaler",
+                  "description": "Upscale images to higher resolution",
+                  "icon": "RiImage2Line",
+                  "badge": "Coming"
+                },
+                {
+                  "title": "BG Remover",
+                  "description": "Remove backgrounds from images",
+                  "icon": "RiImage2Line",
+                  "badge": "Coming"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Showcases",
+          "url": "/showcases",
+          "icon": "Box"
+        },
+        {
+          "title": "Pricing",
+          "url": "/pricing",
+          "icon": "DollarSign"
+        },
+        {
+          "title": "Blog",
+          "url": "/blog",
+          "icon": "Newspaper"
+        },
+        {
+          "title": "Docs",
+          "url": "/docs",
+          "icon": "BookOpenText"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "Billing",
+          "url": "/settings/billing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "Activity",
+          "url": "/activity",
+          "icon": "Activity"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "id": "hero",
+    "title": "AI Portrait Magic in One Tap",
+    "highlight_text": "AI Portrait",
+    "description": "Smart Pixels is an ai portrait generator & editor that turns everyday photos into professional photography for weddings, travel, maternity, pets and more.",
+    "announcement": {
+      "badge": "New",
+      "title": "🎉 Click for 50% discount",
+      "url": "/pricing"
+    },
+    "buttons": [
+      {
+        "title": "Get Started",
+        "icon": "Zap",
+        "url": "/#portrait-retouch-editor",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "Read Document",
+        "icon": "BookOpenText",
+        "url": "/docs",
+        "target": "_blank",
+        "variant": "outline"
+      }
+    ],
+    "show_avatars": true,
+    "avatars_tip": "999+ users are using Smart Pixels",
+    "show_award": false
+  },
+  "portrait_retouch_editor": {
+    "id": "portrait-retouch-editor",
+    "title": "AI Portrait Generator Setting",
+    "description": "Upload your photos, pick enhancements, and generate AI retouched portraits.",
+    "result_title": "Generated Result",
+    "upload": {
+      "label": "Upload Image",
+      "selected": "Selected {count}/{max} images",
+      "add_more": "Add more"
+    },
+    "beauty": {
+      "title": "Beauty Enhancement",
+      "groups": {
+        "general": {
+          "label": "Universal",
+          "options": [
+            {
+              "label": "Blurred Background"
+            },
+            {
+              "label": "Lighting Supplement"
+            }
+          ]
+        },
+        "face_shape": {
+          "label": "Face shape",
+          "options": [
+            {
+              "label": "Face Slimming"
+            },
+            {
+              "label": "Double Chin Remover"
+            },
+            {
+              "label": "Body Shaping"
+            }
+          ]
+        },
+        "skin": {
+          "label": "Skin",
+          "options": [
+            {
+              "label": "Soften Skin"
+            },
+            {
+              "label": "Wrinkles Remover"
+            },
+            {
+              "label": "Blemish Remover"
+            },
+            {
+              "label": "Brighten Skin"
+            },
+            {
+              "label": "Skin Oil Removal"
+            }
+          ]
+        },
+        "eyes": {
+          "label": "Facial features",
+          "options": [
+            {
+              "label": "Open Eyes"
+            },
+            {
+              "label": "Remove Dark Circles"
+            },
+            {
+              "label": "Remove Red Eyes"
+            },
+            {
+              "label": "Eye Retouching"
+            }
+          ]
+        },
+        "nose": {
+          "label": "Nose",
+          "options": [
+            {
+              "label": "Nose Retouching"
+            }
+          ]
+        },
+        "mouth_teeth": {
+          "label": "Mouth & teeth",
+          "options": [
+            {
+              "label": "Mouth Retouching"
+            },
+            {
+              "label": "Fix Teeth"
+            }
+          ]
+        },
+        "hair": {
+          "label": "Hair",
+          "options": [
+            {
+              "label": "Soft Hair"
+            },
+            {
+              "label": "Enhanced Hair Shine"
+            }
+          ]
+        },
+        "artifacts_removal": {
+          "label": "Artifacts removal",
+          "options": [
+            {
+              "label": "Glasses Glare Remover"
+            },
+            {
+              "label": "Tattoo Remover"
+            }
+          ]
+        }
+      }
+    },
+    "other_prompt_label": "prompt for other photo editing",
+    "other_prompt_placeholder": "For example: changing attire, adjusting posture, adding accessories, etc.",
+    "counter_format": "{count}/2000",
+    "model": {
+      "label": "Choose Model",
+      "options": {
+        "google/nano-banana": "Nano Banana AI",
+        "bytedance/seedream-4": "Seedream 4.0"
+      }
+    },
+    "buttons": {
+      "generate": "Generate retouch",
+      "regenerate": "Regenerate",
+      "download": "Download"
+    },
+    "status": {
+      "pending": "Waiting for the model to start",
+      "processing": "Generating your image...",
+      "success": "Image generation completed",
+      "failed": "Generation failed"
+    },
+    "helper": {
+      "max_size": "Max 15MB per image",
+      "requirement": "Upload at least one image and add beauty options or prompt."
+    }
+  },
+  "introduce": {
+    "id": "introduce",
+    "title": "What is Smart Pixels?",
+    "label": "Introduce",
+    "description": "Smart Pixels is an advanced ai portrait generator and all-in-one portrait maker designed to replace traditional photo studios and costly professional shoots. With just one click, you can transform everyday photos into stunning, studio-grade portrait photography—at less than 1% of the usual cost.",
+    "image": {
+      "src": "/imgs/cases/1.png",
+      "alt": "Smart Pixels"
+    },
+    "items": [
+      {
+        "title": "Flawless Portrait Retouching",
+        "description": "Smart Pixels’ ai portrait generator refines faces with pro skin, lighting and background tweaks in one click.",
+        "icon": "RiImage2Line"
+      },
+      {
+        "title": "Portrait Photography Sets",
+        "description": "Generate full wedding, travel, street or ID portrait sets that look like studio shoots, straight from your photos.",
+        "icon": "RiDatabase2Line"
+      },
+      {
+        "title": "Smart AI Editing Assistance",
+        "description": "Get auto suggestions, presets and fixes so every portrait feels professionally directed, no learning curve.",
+        "icon": "RiCloudyFill"
+      },
+      {
+        "title": "Ready to Use, No Setup",
+        "description": "Start in seconds—upload, choose a style and let our ai portrait generator do the rest for studio-level results.",
+        "icon": "RiRobot2Line"
+      }
+    ]
+  },
+  "benefits": {
+    "id": "benefits",
+    "title": "Why Choose Smart Pixels",
+    "label": "Benefits",
+    "description": "Powered by advanced portrait ai, it delivers full photoshoot results at under 1% of traditional photography costs.",
+    "items": [
+      {
+        "title": "AI Portrait Retouching Made Simple",
+        "description": "Smart Pixels offers powerful portrait ai retouch presets—face slimming, skin smoothing, background blur, facial lighting and more. No need to switch between multiple apps; everything is streamlined for better results, lower credit consumption and zero hassle.",
+        "icon": "RiNextjsFill",
+        "image": {
+          "src": "/imgs/landing/1.png",
+          "alt": "AI Portrait Retouching"
+        }
+      },
+      {
+        "title": "Professional Photography, Re-Imagined",
+        "description": "Create full portrait sets instantly with our ai portrait generator: travel shoots, street portraits, ID photos, wedding portraits, maternity sessions, pet portraits, themed photoshoots and more. The results rival studio-quality photography—at a fraction of the price.",
+        "icon": "RiClapperboardAiLine",
+        "image": {
+          "src": "/imgs/landing/2.png",
+          "alt": "Professional Photography"
+        }
+      },
+      {
+        "title": "100+ AI Tools for Portrait Creation & Editing",
+        "description": "Access a rich toolkit of ai portrait generator & editor features: background removal, quality enhancement, guided prompt templates, and multiple top-tier image models to ensure the strongest possible output—both for brand-new portraits and image edits.",
+        "icon": "RiCodeFill",
+        "image": {
+          "src": "/imgs/landing/3.png",
+          "alt": "Portrait Creation & Editing"
+        }
+      },
+      {
+        "title": "Free Tools to Enhance Your Workflow",
+        "description": "Enjoy supportive free utilities including format converters, retouch suggestions, prompt optimizers for portrait ai, beauty scoring, face-shape analysis and more—everything you need to power a complete portrait creation workflow in one place.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "/imgs/landing/4.png",
+          "alt": "Free Tools for portrait creation"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "id": "usage",
+    "title": "How to Create with Smart Pixels",
+    "description": "Get your AI portrait generator running in four simple steps:",
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "Upload Your Portrait",
+        "description": "Upload a clear portrait—and a clothing image if you want an outfit change—so our ai portrait generator delivers the best results."
+      },
+      {
+        "title": "Choose Beauty Enhancements",
+        "description": "Select from our portrait ai presets to instantly improve skin, lighting and overall aesthetics."
+      },
+      {
+        "title": "Add Optional Requests",
+        "description": "Enter extra wishes like outfit changes, pose tweaks or accessories for a more personalized result."
+      },
+      {
+        "title": "Generate Your Portrait",
+        "description": "Pick a model and tap Generate Retouch. Our portrait maker creates polished, studio-quality portraits ready to save or share."
+      }
+    ]
+  },
+  "features": {
+    "id": "features",
+    "title": "Key Features of Smart Pixels",
+    "description": "AI Portrait Generator & Editor - One-Stop Solution",
+    "items": [
+      {
+        "title": "Professional Portrait Retouching",
+        "description": "Smart Pixels uses advanced portrait ai to analyze facial features and deliver natural, flattering edits—never exaggerated, always beautifully real.",
+        "icon": "RiNextjsFill"
+      },
+      {
+        "title": "Instant Photoshoot Collections",
+        "description": "With our ai portrait generator and full photoshoot solution, you can create complete portrait sets—styled, refined and ready to share—in seconds, saving both time and cost.",
+        "icon": "RiKey2Fill"
+      },
+      {
+        "title": "Multiple Cutting-Edge Image Models",
+        "description": "Switch freely between the industry’s most advanced image models to ensure your portraits, edits and creative outputs always reach the highest possible quality.",
+        "icon": "RiDatabase2Line"
+      },
+      {
+        "title": "20+ Universal Editing Tools",
+        "description": "From background removal and blur to image enhancement, upscaling, watermark removal, old photo repair and style transfer—Smart Pixels offers everything in one place.",
+        "icon": "RiCloudy2Fill"
+      },
+      {
+        "title": "100+ Portrait Editing Tools",
+        "description": "As a powerful portrait maker, Smart Pixels provides Face Slimmer, AI Retouch, Wrinkle Remover, Body Editor, AI Clothes Changer, plus seasonal and themed templates for fast, stunning results.",
+        "icon": "RiBarChart2Line"
+      },
+      {
+        "title": "20+ Creation Support Tools",
+        "description": "Enhance AI generations with Prompt Enhance and Prompt Checker, and polish your final look with expert retouch suggestions, face-shape analysis and more—designed to elevate every portrait.",
+        "icon": "RiRobot2Line"
+      }
+    ]
+  },
+  "stats": {
+    "id": "stats",
+    "title": "People Love Smart Pixels",
+    "description": "for its powerful ai portrait generator and editor.",
+    "items": [
+      {
+        "title": "999+",
+        "description": "Customers"
+      },
+      {
+        "title": "100+",
+        "description": "Tools"
+      },
+      {
+        "title": "200+",
+        "description": "Presets"
+      }
+    ]
+  },
+  "testimonials": {
+    "id": "testimonials",
+    "title": "What Users Say About Smart Pixels",
+    "description": "Hear from Users who generated or edited their own portraits photos with Smart Pixels.",
+    "items": [
+      {
+        "name": "Ava Mitchell",
+        "role": "YouTuber",
+        "quote": "As a YouTuber, I’m constantly updating thumbnails and channel art. Smart Pixels’ ai portrait generator gives me studio-looking portraits from my apartment lighting in minutes. The portrait ai retouching is subtle but flattering, so I don’t have to hire a photographer every time I drop a new video.",
+        "image": {
+          "src": "/imgs/avatars/1.png",
+          "alt": "david"
+        }
+      },
+      {
+        "name": "Rachel Kim",
+        "role": "INS Influencer",
+        "quote": "I run an aesthetic-heavy Instagram feed, and Smart Pixels has basically become my secret portrait maker. I can turn random café selfies into consistent, editorial-style shots with its ai portrait generator. The presets and templates keep my grid on-brand without spending hours in Photoshop.",
+        "image": {
+          "src": "/imgs/avatars/2.png",
+          "alt": "rachel"
+        }
+      },
+      {
+        "name": "Marcus Thompson",
+        "role": "TikTok creator",
+        "quote": "As a TikTok creator, I often need cover photos and promo images for my videos. Smart Pixels lets me turn quick phone snaps into polished portraits with one click. The ai portrait generator plus all the small portrait ai tools (like skin and lighting tweaks) make my profile look way more professional.",
+        "image": {
+          "src": "/imgs/avatars/3.png",
+          "alt": "marcus"
+        }
+      },
+      {
+        "name": "Sofia Garcia",
+        "role": "Model",
+        "quote": "I use Smart Pixels to refresh my portfolio between test shoots. The ai portrait generator keeps my features true to life while cleaning up skin, background and lighting. It feels more like a digital assistant than a filter—perfect for creating new comp card images without booking a full studio session every time.",
+        "image": {
+          "src": "/imgs/avatars/4.png",
+          "alt": "sofia"
+        }
+      },
+      {
+        "name": "James Wilson",
+        "role": "Personal Brand",
+        "quote": "As a freelance designer, I need good headshots for my website, LinkedIn and proposals, but I don’t always have time for a photoshoot. Smart Pixels works like a personal portrait maker: I upload a regular photo, try a few styles, and the portrait ai gives me professional-looking images that match my brand.",
+        "image": {
+          "src": "/imgs/avatars/5.png",
+          "alt": "james"
+        }
+      },
+      {
+        "name": "Sophia Reynolds",
+        "role": "Mom-to-be",
+        "quote": "I wanted beautiful maternity photos but didn’t feel like doing a big studio shoot. With Smart Pixels, I used their ai portrait generator to turn simple home pictures into soft, dreamy maternity portraits. The results look like a professional session, and I love that I can try different styles and outfits without leaving the house.",
+        "image": {
+          "src": "/imgs/avatars/6.png",
+          "alt": "anna"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "Frequently Asked Questions About Smart Pixels",
+    "description": "Have another question? Contact us by email.",
+    "tip": "Can't find what you're looking for? Contact our <a href='mailto:support@smart-pixels.com' target='_blank' class='text-primary font-medium hover:underline'>customer support</a>",
+    "items": [
+      {
+        "question": "What is Smart Pixels?",
+        "answer": "Smart Pixels is an online ai portrait generator and portrait maker that turns everyday photos into professional, studio-style portraits. It’s designed to replace traditional photo studios for IDs, weddings, maternity, pets, social content and more."
+      },
+      {
+        "question": "How is Smart Pixels different from other AI photo apps?",
+        "answer": "Unlike generic filters, Smart Pixels focuses on portrait ai. It understands faces, body shapes and lighting, then applies natural, flattering edits—so your portraits look professionally shot, not over-processed or fake."
+      },
+      {
+        "question": "Do I need any photo editing skills to use Smart Pixels?",
+        "answer": "No. Smart Pixels is built for non-experts. Just upload your photo, pick a style or template, and let our ai portrait generator handle retouching, backgrounds and lighting. Creators and beginners can get pro results in a few clicks."
+      },
+      {
+        "question": "Can Smart Pixels replace a traditional photoshoot?",
+        "answer": "For many use cases, yes. Our portrait maker can generate full sets of portraits for weddings, travel, street shoots, maternity and social media content at a fraction of studio cost—without booking a photographer or a venue."
+      },
+      {
+        "question": "How does Smart Pixels ensure high-quality portrait results?",
+        "answer": "The platform integrates several cutting-edge image models. You can switch between them inside the ai portrait generator until you find the look you love, ensuring the best balance of detail, realism and style."
+      },
+      {
+        "question": "Can Smart Pixels help me improve my prompts and editing ideas?",
+        "answer": "Yes. Smart Pixels offers prompt enhancers, prompt checkers, retouching suggestions and face-shape analysis to help you communicate better with the ai portrait generator and get consistent, high-quality portraits every time."
+      }
+    ]
+  },
+  "cta": {
+    "id": "cta",
+    "title": "Generate or Edit Your First Photo",
+    "description": "Start from here, create with Smart Pixels.",
+    "buttons": [
+      {
+        "title": "Get Started",
+        "url": "/",
+        "target": "_blank",
+        "icon": "Zap"
+      },
+      {
+        "title": "Read Document",
+        "url": "/docs",
+        "target": "_blank",
+        "variant": "outline",
+        "icon": "BookOpenText"
+      }
+    ]
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "Smart Pixels",
+      "description": "Smart Pixels is an ai portrait generator & editor that transforms everyday photos into stunning, studio-quality portraits with advanced portrait ai tools.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Smart Pixels"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Features",
+          "children": [
+            {
+              "title": "Portrait Retouch",
+              "url": "/",
+              "target": "_self"
+            },
+            {
+              "title": "Nano Banana",
+              "target": "_self"
+            },
+            {
+              "title": "Seedream 4.0",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "children": [
+            {
+              "title": "Documents",
+              "url": "/docs",
+              "target": "_blank"
+            },
+            {
+              "title": "Showcases",
+              "url": "/showcases",
+              "target": "_blank"
+            },
+            {
+              "title": "Blog",
+              "url": "/blog",
+              "target": "_blank"
+            }
+          ]
+        },
+        {
+          "title": "Friends",
+          "children": [
+            {
+              "title": "img2img AI",
+              "url": "https://www.img-2-img.com",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Email",
+          "icon": "Mail",
+          "url": "mailto:support@smart-pixels.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "show_built_with": false,
+    "show_theme": false,
+    "show_locale": false
+  }
+}
