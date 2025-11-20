@@ -30,6 +30,8 @@ jobs:
           cache: 'pnpm'
       - id: configurepages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Restore cache
         uses: actions/cache@v4
         with:
