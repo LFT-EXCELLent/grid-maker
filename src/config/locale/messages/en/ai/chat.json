@@ -2,10 +2,10 @@
   "sidebar": {
     "header": {
       "brand": {
-        "title": "Smart Pixels Chat",
+        "title": "Grid Maker Chat",
         "logo": {
           "src": "/logo.png",
-          "alt": "Smart Pixels Chat"
+          "alt": "Grid Maker Chat"
         },
         "url": "/chat"
       },
@@ -60,7 +60,7 @@
           },
           {
             "title": "Email",
-            "url": "mailto:support@smart-pixels.com",
+            "url": "mailto:support@gridmaker.pro",
             "icon": "Mail",
             "target": "_blank"
           }

@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "Focus on AI Portrait Generation & Editing Blog ｜ Smart Pixels",
-    "description": "Regularly share fun, popular AI portrait workflows, highlight great prompts and creations, and cover the latest developments in AI imaging"
+    "title": "Grid Maker Blog ｜ Drawing Grid Maker Online",
+    "description": "Guides, tips, and examples for using Grid Maker to add precise grids to images for drawing, sketching, and layout planning."
   },
   "blog": {
     "id": "blog",
-    "sr_only_title": "Smart Pixels Blog",
-    "title": "Smart Pixels Blog",
-    "description": "Regularly share fun, popular AI portrait workflows,\nhighlight great prompts and creations, and cover the latest developments in AI imaging"
+    "sr_only_title": "Grid Maker Blog",
+    "title": "Grid Maker Blog",
+    "description": "Discover workflows, presets, and printable references for your art."
   },
   "page": {
     "all": "All",

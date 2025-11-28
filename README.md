@@ -1,4 +1,4 @@
-# Smart Pixels
+# Grid Maker
 
 一款 AI 肖像生成器和编辑器，只需一键即可将日常照片转化为影棚级专业肖像。
 

@@ -2,77 +2,24 @@
   "header": {
     "id": "header",
     "brand": {
-      "title": "Smart Pixels",
+      "title": "Grid Maker",
       "logo": {
         "src": "/logo.png",
-        "alt": "Smart Pixels"
+        "alt": "Grid Maker"
       },
       "url": "/"
     },
     "nav": {
       "items": [
         {
-          "title": "Portrait Retouch",
+          "title": "Grid Maker",
           "url": "/",
           "icon": "RiImage2Line"
-        },
-        {
-          "title": "AI Tools",
-          "icon": "Sparkles",
-          "children": [
-            {
-              "dropdown_title": "AI Image Models",
-              "layout": "single",
-              "items": [
-                {
-                  "title": "Nano Banana",
-                  "description": "Retouch portraits with Nano Banana",
-                  "icon": "RiImage2Line",
-                  "badge": "Coming"
-                },
-                {
-                  "title": "Seedream 4.0",
-                  "description": "Retouch portraits with Seedream 4.0",
-                  "icon": "RiImage2Line",
-                  "badge": "Coming"
-                }
-              ]
-            },
-            {
-              "dropdown_title": "General Tools",
-              "layout": "single",
-              "items": [
-                {
-                  "title": "Watermark",
-                  "description": "Remove watermarks from images",
-                  "icon": "RiImage2Line",
-                  "badge": "Coming"
-                },
-                {
-                  "title": "Img Upscaler",
-                  "description": "Upscale images to higher resolution",
-                  "icon": "RiImage2Line",
-                  "badge": "Coming"
-                },
-                {
-                  "title": "BG Remover",
-                  "description": "Remove backgrounds from images",
-                  "icon": "RiImage2Line",
-                  "badge": "Coming"
-                }
-              ]
-            }
-          ]
         },
         {
           "title": "Showcases",
           "url": "/showcases",
           "icon": "Box"
-        },
-        {
-          "title": "Pricing",
-          "url": "/pricing",
-          "icon": "DollarSign"
         },
         {
           "title": "Blog",
@@ -104,25 +51,20 @@
         }
       ]
     },
-    "show_sign": true,
+    "show_sign": false,
     "show_theme": true,
     "show_locale": true
   },
   "hero": {
     "id": "hero",
-    "title": "AI Portrait Magic in One Tap",
-    "highlight_text": "AI Portrait",
-    "description": "Smart Pixels is an ai portrait generator & editor that turns everyday photos into professional photography for weddings, travel, maternity, pets and more.",
-    "announcement": {
-      "badge": "New",
-      "title": "🎉 Click for 50% discount",
-      "url": "/pricing"
-    },
+    "title": "Grid Maker - Create Grid for Your Art",
+    "highlight_text": "Grid Maker",
+    "description": "Grid Maker is a tool that helps you create grids for your art.",
     "buttons": [
       {
         "title": "Get Started",
         "icon": "Zap",
-        "url": "/#portrait-retouch-editor",
+        "url": "/#grid-maker",
         "target": "_self",
         "variant": "default"
       },
@@ -135,319 +77,228 @@
       }
     ],
     "show_avatars": true,
-    "avatars_tip": "999+ users are using Smart Pixels",
+    "avatars_tip": "999+ users are using Grid Maker",
     "show_award": false
   },
-  "portrait_retouch_editor": {
-    "id": "portrait-retouch-editor",
-    "title": "AI Portrait Generator Setting",
-    "description": "Upload your photos, pick enhancements, and generate AI retouched portraits.",
-    "result_title": "Generated Result",
+  "grid_maker": {
+    "id": "grid-maker",
+    "title": "Drawing Grid Maker",
+    "description": "Upload an image, overlay a precise grid, and download a print-ready reference in seconds.",
     "upload": {
-      "label": "Upload Image",
-      "selected": "Selected {count}/{max} images",
-      "add_more": "Add more"
+      "title": "Upload Reference Image",
+      "description": "Drag and drop or browse a local file. Nothing leaves your browser.",
+      "button": "Upload Image",
+      "hint": "Supported: JPG, PNG, WebP (up to 15MB)",
+      "replace": "Upload Another Image"
     },
-    "beauty": {
-      "title": "Beauty Enhancement",
-      "groups": {
-        "general": {
-          "label": "Universal",
-          "options": [
-            {
-              "label": "Blurred Background"
-            },
-            {
-              "label": "Lighting Supplement"
-            }
-          ]
-        },
-        "face_shape": {
-          "label": "Face shape",
-          "options": [
-            {
-              "label": "Face Slimming"
-            },
-            {
-              "label": "Double Chin Remover"
-            },
-            {
-              "label": "Body Shaping"
-            }
-          ]
-        },
-        "skin": {
-          "label": "Skin",
-          "options": [
-            {
-              "label": "Soften Skin"
-            },
-            {
-              "label": "Wrinkles Remover"
-            },
-            {
-              "label": "Blemish Remover"
-            },
-            {
-              "label": "Brighten Skin"
-            },
-            {
-              "label": "Skin Oil Removal"
-            }
-          ]
-        },
-        "eyes": {
-          "label": "Facial features",
-          "options": [
-            {
-              "label": "Open Eyes"
-            },
-            {
-              "label": "Remove Dark Circles"
-            },
-            {
-              "label": "Remove Red Eyes"
-            },
-            {
-              "label": "Eye Retouching"
-            }
-          ]
-        },
-        "nose": {
-          "label": "Nose",
-          "options": [
-            {
-              "label": "Nose Retouching"
-            }
-          ]
-        },
-        "mouth_teeth": {
-          "label": "Mouth & teeth",
-          "options": [
-            {
-              "label": "Mouth Retouching"
-            },
-            {
-              "label": "Fix Teeth"
-            }
-          ]
-        },
-        "hair": {
-          "label": "Hair",
-          "options": [
-            {
-              "label": "Soft Hair"
-            },
-            {
-              "label": "Enhanced Hair Shine"
-            }
-          ]
-        },
-        "artifacts_removal": {
-          "label": "Artifacts removal",
-          "options": [
-            {
-              "label": "Glasses Glare Remover"
-            },
-            {
-              "label": "Tattoo Remover"
-            }
-          ]
-        }
-      }
+    "grid_settings": {
+      "title": "Grid Settings",
+      "grid_type_label": "Grid Type",
+      "types": {
+        "custom": "Custom",
+        "square": "Square"
+      },
+      "rows": "Rows",
+      "columns": "Columns",
+      "line_color": "Line Color",
+      "line_opacity": "Line Opacity",
+      "line_width": "Line Width",
+      "show_labels": "Show Grid Labels (A1, B2, etc.)",
+      "square_helper": "Align image to square aspect by rows/columns ratio."
     },
-    "other_prompt_label": "prompt for other photo editing",
-    "other_prompt_placeholder": "For example: changing attire, adjusting posture, adding accessories, etc.",
-    "counter_format": "{count}/2000",
-    "model": {
-      "label": "Choose Model",
-      "options": {
-        "google/nano-banana": "Nano Banana AI",
-        "bytedance/seedream-4": "Seedream 4.0"
-      }
+    "paper": {
+      "title": "Paper Format",
+      "subtitle": "Select your drawing paper size (mm)",
+      "select_label": "Select Format",
+      "custom_width": "Width ({unit})",
+      "custom_height": "Height ({unit})"
     },
-    "buttons": {
-      "generate": "Generate retouch",
-      "regenerate": "Regenerate",
-      "download": "Download"
+    "preview": {
+      "title": "Grid Preview",
+      "convert_bw": "Convert to Black & White",
+      "revert_color": "Revert to Original Color",
+      "download": "Download Grid Image",
+      "rendering": "Rendering...",
+      "empty_hint": "Upload an image to see the grid overlay."
     },
-    "status": {
-      "pending": "Waiting for the model to start",
-      "processing": "Generating your image...",
-      "success": "Image generation completed",
-      "failed": "Generation failed"
+    "printing": {
+      "title": "Printing Guide",
+      "format_line": "For a {name} print ({width}×{height}{unit}):",
+      "vertical": "Draw {count} vertical lines at {interval}{unit} intervals",
+      "horizontal": "Draw {count} horizontal lines at {interval}{unit} intervals",
+      "labels": "Label each cell from A1 to {lastLabel}"
     },
     "helper": {
       "max_size": "Max 15MB per image",
-      "requirement": "Upload at least one image and add beauty options or prompt."
+      "drag_tip": "Drag your image here or click to browse"
     }
   },
   "introduce": {
     "id": "introduce",
-    "title": "What is Smart Pixels?",
+    "title": "What is Grid Maker?",
     "label": "Introduce",
-    "description": "Smart Pixels is an advanced ai portrait generator and all-in-one portrait maker designed to replace traditional photo studios and costly professional shoots. With just one click, you can transform everyday photos into stunning, studio-grade portrait photography—at less than 1% of the usual cost.",
+    "description": "Grid Maker is a fast grid maker online that lets you upload any image, add a precise drawing grid, and download a ready-to-use reference file in seconds. As a flexible grid maker for drawing, sketching, and photo layouts, it runs entirely in your browser so you can focus on proportions and composition instead of measuring by hand.",
     "image": {
-      "src": "/imgs/cases/1.png",
-      "alt": "Smart Pixels"
+      "src": "/imgs/landing/1.png",
+      "alt": "Grid Maker"
     },
     "items": [
       {
-        "title": "Flawless Portrait Retouching",
-        "description": "Smart Pixels’ ai portrait generator refines faces with pro skin, lighting and background tweaks in one click.",
+        "title": "Upload any picture",
+        "description": "Turn reference photos, sketches, and screenshots into guides with our drawing grid maker. In one click, overlay clean squares on your image and use Grid Maker as a photo grid maker for precise outlines and compositions.",
         "icon": "RiImage2Line"
       },
       {
-        "title": "Portrait Photography Sets",
-        "description": "Generate full wedding, travel, street or ID portrait sets that look like studio shoots, straight from your photos.",
-        "icon": "RiDatabase2Line"
+        "title": "Custom grids in seconds",
+        "description": "Set rows and columns, adjust line thickness, switch units, and save your favorite presets. This online grid maker keeps every grid consistent across projects, from tiny thumbnails to poster-sized artwork.",
+        "icon": "Grid3x3"
       },
       {
-        "title": "Smart AI Editing Assistance",
-        "description": "Get auto suggestions, presets and fixes so every portrait feels professionally directed, no learning curve.",
-        "icon": "RiCloudyFill"
+        "title": "Work anywhere in the browser",
+        "description": "Because Grid Maker is a grid maker online, there is nothing to download or update. Open it on desktop, tablet, or phone and your maker grid settings stay with you as you move between devices.",
+        "icon": "Globe"
       },
       {
-        "title": "Ready to Use, No Setup",
-        "description": "Start in seconds—upload, choose a style and let our ai portrait generator do the rest for studio-level results.",
+        "title": "Smart helpers for better results",
+        "description": "Snap to common ratios, preview different grid densities, and quickly compare versions. Let our grid picture maker online handle the technical setup so you can stay in a creative flow.",
         "icon": "RiRobot2Line"
       }
     ]
   },
   "benefits": {
     "id": "benefits",
-    "title": "Why Choose Smart Pixels",
+    "title": "Why Choose Grid Maker",
     "label": "Benefits",
-    "description": "Powered by advanced portrait ai, it delivers full photoshoot results at under 1% of traditional photography costs.",
+    "description": "Whether you are an artist, designer, teacher, or content creator, Grid Maker turns the traditional grid method into a smooth digital workflow. Explore how this grid maker online saves time while improving accuracy.",
     "items": [
       {
-        "title": "AI Portrait Retouching Made Simple",
-        "description": "Smart Pixels offers powerful portrait ai retouch presets—face slimming, skin smoothing, background blur, facial lighting and more. No need to switch between multiple apps; everything is streamlined for better results, lower credit consumption and zero hassle.",
-        "icon": "RiNextjsFill",
-        "image": {
-          "src": "/imgs/landing/1.png",
-          "alt": "AI Portrait Retouching"
-        }
-      },
-      {
-        "title": "Professional Photography, Re-Imagined",
-        "description": "Create full portrait sets instantly with our ai portrait generator: travel shoots, street portraits, ID photos, wedding portraits, maternity sessions, pet portraits, themed photoshoots and more. The results rival studio-quality photography—at a fraction of the price.",
-        "icon": "RiClapperboardAiLine",
+        "title": "Stay focused on drawing, not measuring",
+        "description": "Stop redrawing lines every time you start a piece. Our grid maker for drawing builds perfectly aligned squares instantly, freeing you to concentrate on form, shading, and storytelling instead of math.",
+        "icon": "Pencil",
         "image": {
           "src": "/imgs/landing/2.png",
-          "alt": "Professional Photography"
+          "alt": "Artist using Grid Maker for drawing reference"
         }
       },
       {
-        "title": "100+ AI Tools for Portrait Creation & Editing",
-        "description": "Access a rich toolkit of ai portrait generator & editor features: background removal, quality enhancement, guided prompt templates, and multiple top-tier image models to ensure the strongest possible output—both for brand-new portraits and image edits.",
-        "icon": "RiCodeFill",
+        "title": "Perfect references for every project",
+        "description": "From portraits and landscapes to product shots and thumbnails, this drawing grid maker creates clean guides that scale with your canvas. Use it as a grid picture maker online to prepare accurate references for any medium.",
+        "icon": "Images",
         "image": {
-          "src": "/imgs/landing/3.png",
-          "alt": "Portrait Creation & Editing"
+          "src": "/imgs/landing/2.png",
+          "alt": "Grid overlay on portrait reference image"
         }
       },
       {
-        "title": "Free Tools to Enhance Your Workflow",
-        "description": "Enjoy supportive free utilities including format converters, retouch suggestions, prompt optimizers for portrait ai, beauty scoring, face-shape analysis and more—everything you need to power a complete portrait creation workflow in one place.",
+        "title": "Fast, flexible controls",
+        "description": "Fine-tune grid spacing, switch between metric and imperial units, and adjust opacity until your view feels just right. The responsive online grid maker interface updates instantly as you tweak settings.",
+        "icon": "Sliders",
+        "image": {
+          "src": "/imgs/landing/2.png",
+          "alt": "Grid Maker settings panel with grid controls"
+        }
+      },
+      {
+        "title": "One tool for images and paper",
+        "description": "Use this grid maker online to create printable guides for sketchbooks or digital overlays for tablets. Export your maker grid as an image or PDF so you can trace, scale, and transfer artwork with confidence.",
         "icon": "RiRobot2Line",
         "image": {
-          "src": "/imgs/landing/4.png",
-          "alt": "Free Tools for portrait creation"
+          "src": "/imgs/landing/2.png",
+          "alt": "Printed drawing grid and digital tablet side by side"
         }
       }
     ]
   },
   "usage": {
     "id": "usage",
-    "title": "How to Create with Smart Pixels",
-    "description": "Get your AI portrait generator running in four simple steps:",
+    "title": "How to Create with Grid Maker",
+    "description": "Follow these simple steps to start creating accurate artwork with our grid maker online.",
     "image_position": "left",
     "text_align": "center",
     "items": [
       {
-        "title": "Upload Your Portrait",
-        "description": "Upload a clear portrait—and a clothing image if you want an outfit change—so our ai portrait generator delivers the best results."
+        "title": "Upload or start with a blank canvas",
+        "description": "Open our grid maker online in your browser—an easy-to-use online grid maker—and upload a reference photo, screenshot, or sketch. You can also start with a blank background if you want to design a custom layout from scratch."
       },
       {
-        "title": "Choose Beauty Enhancements",
-        "description": "Select from our portrait ai presets to instantly improve skin, lighting and overall aesthetics."
+        "title": "Choose your grid settings",
+        "description": "Set the number of rows and columns, choose units such as pixels, centimeters, or inches, and adjust line color and thickness. These options turn Grid Maker into a flexible drawing grid maker for any style of art."
       },
       {
-        "title": "Add Optional Requests",
-        "description": "Enter extra wishes like outfit changes, pose tweaks or accessories for a more personalized result."
+        "title": "Refine and apply your maker grid",
+        "description": "Preview the grid over your image, adjust spacing or opacity until it feels comfortable, then lock it in. The live preview in our grid maker online makes it easy to see how every change affects your reference."
       },
       {
-        "title": "Generate Your Portrait",
-        "description": "Pick a model and tap Generate Retouch. Our portrait maker creates polished, studio-quality portraits ready to save or share."
+        "title": "Download, print, or share",
+        "description": "Export your finished grid as a high-resolution file to print, trace on paper, or keep on screen while you draw. Share the output from this photo grid maker with students, clients, or collaborators in just a few clicks."
       }
     ]
   },
   "features": {
     "id": "features",
-    "title": "Key Features of Smart Pixels",
-    "description": "AI Portrait Generator & Editor - One-Stop Solution",
+    "title": "Key Features of Grid Maker",
+    "description": "Built as a powerful yet lightweight grid maker online, Grid Maker gives you all the controls you need without unnecessary complexity.",
     "items": [
       {
-        "title": "Professional Portrait Retouching",
-        "description": "Smart Pixels uses advanced portrait ai to analyze facial features and deliver natural, flattering edits—never exaggerated, always beautifully real.",
-        "icon": "RiNextjsFill"
+        "title": "Browser-based, no installation",
+        "description": "Run this grid maker online on any modern device—Mac, Windows, tablet, or phone. Everything happens in the browser, so you always have the latest version without downloads or logins.",
+        "icon": "Globe"
       },
       {
-        "title": "Instant Photoshoot Collections",
-        "description": "With our ai portrait generator and full photoshoot solution, you can create complete portrait sets—styled, refined and ready to share—in seconds, saving both time and cost.",
-        "icon": "RiKey2Fill"
+        "title": "Precision controls for pros",
+        "description": "Dial in exact sizes with numeric inputs for rows, columns, and margins. Our grid maker for drawing helps you scale portraits, environments, and design layouts with precise proportions every time.",
+        "icon": "Target"
       },
       {
-        "title": "Multiple Cutting-Edge Image Models",
-        "description": "Switch freely between the industry’s most advanced image models to ensure your portraits, edits and creative outputs always reach the highest possible quality.",
+        "title": "Save and reuse presets",
+        "description": "Store your favorite maker grid setups for common canvas sizes, classroom exercises, or client templates. Recalling a saved configuration takes seconds, keeping your workflow smooth.",
         "icon": "RiDatabase2Line"
       },
       {
-        "title": "20+ Universal Editing Tools",
-        "description": "From background removal and blur to image enhancement, upscaling, watermark removal, old photo repair and style transfer—Smart Pixels offers everything in one place.",
-        "icon": "RiCloudy2Fill"
+        "title": "Flexible export options",
+        "description": "Download your grid as PNG or JPG for digital work, or as a printable PDF for traditional sketching. Use the same drawing grid maker to prepare references for sketchbooks, canvases, and digital tablets.",
+        "icon": "Download"
       },
       {
-        "title": "100+ Portrait Editing Tools",
-        "description": "As a powerful portrait maker, Smart Pixels provides Face Slimmer, AI Retouch, Wrinkle Remover, Body Editor, AI Clothes Changer, plus seasonal and themed templates for fast, stunning results.",
-        "icon": "RiBarChart2Line"
+        "title": "Optimized for images and photos",
+        "description": "Whether you are planning a realistic portrait or a social media collage, Grid Maker doubles as a powerful photo grid maker. Preserve details while still enjoying clear, unobtrusive guides over your images.",
+        "icon": "ImagePlus"
       },
       {
-        "title": "20+ Creation Support Tools",
-        "description": "Enhance AI generations with Prompt Enhance and Prompt Checker, and polish your final look with expert retouch suggestions, face-shape analysis and more—designed to elevate every portrait.",
+        "title": "Smart defaults for beginners",
+        "description": "New to the grid method? Our grid picture maker online includes sensible presets and tips, so first-time users can create clean references in a few clicks while advanced users dive straight into custom setups.",
         "icon": "RiRobot2Line"
       }
     ]
   },
   "stats": {
     "id": "stats",
-    "title": "People Love Smart Pixels",
-    "description": "for its powerful ai portrait generator and editor.",
+    "title": "People Love Grid Maker",
+    "description": "Creators around the world rely on our grid maker online to simplify the grid method and stay accurate.",
     "items": [
       {
-        "title": "999+",
+        "title": "9999+",
         "description": "Customers"
       },
       {
         "title": "100+",
-        "description": "Tools"
+        "description": "Grid templates and presets"
       },
       {
         "title": "200+",
-        "description": "Presets"
+        "description": "Countries and regions served"
       }
     ]
   },
   "testimonials": {
     "id": "testimonials",
-    "title": "What Users Say About Smart Pixels",
-    "description": "Hear from Users who generated or edited their own portraits photos with Smart Pixels.",
+    "title": "What Users Say About Grid Maker",
+    "description": "",
     "items": [
       {
         "name": "Ava Mitchell",
-        "role": "YouTuber",
-        "quote": "As a YouTuber, I’m constantly updating thumbnails and channel art. Smart Pixels’ ai portrait generator gives me studio-looking portraits from my apartment lighting in minutes. The portrait ai retouching is subtle but flattering, so I don’t have to hire a photographer every time I drop a new video.",
+        "role": "Illustrator & sketching instructor",
+        "quote": "Grid Maker is the grid maker online I recommend to every new student. It removes the tedious setup work so they can focus on learning structure, values, and confident line work.",
         "image": {
           "src": "/imgs/avatars/1.png",
           "alt": "david"
@@ -455,8 +306,8 @@
       },
       {
         "name": "Rachel Kim",
-        "role": "INS Influencer",
-        "quote": "I run an aesthetic-heavy Instagram feed, and Smart Pixels has basically become my secret portrait maker. I can turn random café selfies into consistent, editorial-style shots with its ai portrait generator. The presets and templates keep my grid on-brand without spending hours in Photoshop.",
+        "role": "Portrait artist",
+        "quote": "As a grid maker for drawing portraits, Grid Maker gives me consistent proportions from thumbnail to final canvas. I love how quickly I can adjust the grid and export references for each stage.",
         "image": {
           "src": "/imgs/avatars/2.png",
           "alt": "rachel"
@@ -464,8 +315,8 @@
       },
       {
         "name": "Marcus Thompson",
-        "role": "TikTok creator",
-        "quote": "As a TikTok creator, I often need cover photos and promo images for my videos. Smart Pixels lets me turn quick phone snaps into polished portraits with one click. The ai portrait generator plus all the small portrait ai tools (like skin and lighting tweaks) make my profile look way more professional.",
+        "role": "Concept artist",
+        "quote": "The drawing grid maker inside Grid Maker has become part of my daily workflow. I keep it open in a browser tab, drop in new reference photos, and have clean guides ready in under a minute.",
         "image": {
           "src": "/imgs/avatars/3.png",
           "alt": "marcus"
@@ -473,8 +324,8 @@
       },
       {
         "name": "Sofia Garcia",
-        "role": "Model",
-        "quote": "I use Smart Pixels to refresh my portfolio between test shoots. The ai portrait generator keeps my features true to life while cleaning up skin, background and lighting. It feels more like a digital assistant than a filter—perfect for creating new comp card images without booking a full studio session every time.",
+        "role": "Art student",
+        "quote": "I was nervous about realistic drawing until I tried this online grid maker. Clear squares over my photos made it so much easier to break complex scenes into simple shapes.",
         "image": {
           "src": "/imgs/avatars/4.png",
           "alt": "sofia"
@@ -482,8 +333,8 @@
       },
       {
         "name": "James Wilson",
-        "role": "Personal Brand",
-        "quote": "As a freelance designer, I need good headshots for my website, LinkedIn and proposals, but I don’t always have time for a photoshoot. Smart Pixels works like a personal portrait maker: I upload a regular photo, try a few styles, and the portrait ai gives me professional-looking images that match my brand.",
+        "role": "Content creator & photographer",
+        "quote": "Grid Maker doubles as a photo grid maker for my social feeds. I can plan balanced layouts for carousels and story posts while keeping the original images crisp.",
         "image": {
           "src": "/imgs/avatars/5.png",
           "alt": "james"
@@ -491,8 +342,8 @@
       },
       {
         "name": "Sophia Reynolds",
-        "role": "Mom-to-be",
-        "quote": "I wanted beautiful maternity photos but didn’t feel like doing a big studio shoot. With Smart Pixels, I used their ai portrait generator to turn simple home pictures into soft, dreamy maternity portraits. The results look like a professional session, and I love that I can try different styles and outfits without leaving the house.",
+        "role": "High school art teacher",
+        "quote": "Our classroom uses this grid picture maker online for everything from beginner exercises to final exam projects. Students pick it up in minutes, and I save hours preparing reference sheets.",
         "image": {
           "src": "/imgs/avatars/6.png",
           "alt": "anna"
@@ -502,40 +353,40 @@
   },
   "faq": {
     "id": "faq",
-    "title": "Frequently Asked Questions About Smart Pixels",
+    "title": "Frequently Asked Questions About Grid Maker",
     "description": "Have another question? Contact us by email.",
-    "tip": "Can't find what you're looking for? Contact our <a href='mailto:support@smart-pixels.com' target='_blank' class='text-primary font-medium hover:underline'>customer support</a>",
+    "tip": "Can't find what you're looking for? Contact our <a href='mailto:support@gridmaker.pro' target='_blank' class='text-primary font-medium hover:underline'>customer support</a>",
     "items": [
       {
-        "question": "What is Smart Pixels?",
-        "answer": "Smart Pixels is an online ai portrait generator and portrait maker that turns everyday photos into professional, studio-style portraits. It’s designed to replace traditional photo studios for IDs, weddings, maternity, pets, social content and more."
+        "question": "What is Grid Maker and how does this grid maker online work?",
+        "answer": "Grid Maker is a browser-based grid maker online that lets you upload an image, overlay a customizable grid, and download the result as a reference file. Simply open the website, choose your settings, and the tool builds clean guides that help you transfer or scale your artwork accurately."
       },
       {
-        "question": "How is Smart Pixels different from other AI photo apps?",
-        "answer": "Unlike generic filters, Smart Pixels focuses on portrait ai. It understands faces, body shapes and lighting, then applies natural, flattering edits—so your portraits look professionally shot, not over-processed or fake."
+        "question": "Do I need to download software to use Grid Maker?",
+        "answer": "No. Grid Maker is a pure online grid maker that runs in your web browser. There is nothing to install, and you can access the same drawing grid maker from any device with an internet connection."
       },
       {
-        "question": "Do I need any photo editing skills to use Smart Pixels?",
-        "answer": "No. Smart Pixels is built for non-experts. Just upload your photo, pick a style or template, and let our ai portrait generator handle retouching, backgrounds and lighting. Creators and beginners can get pro results in a few clicks."
+        "question": "Can I use Grid Maker for traditional drawing on paper?",
+        "answer": "Yes. Many artists use Grid Maker as a grid maker for drawing on sketchbooks, canvases, and other physical surfaces. Create your grid over a reference picture, download or print it, then replicate the same maker grid on your paper using a ruler."
       },
       {
-        "question": "Can Smart Pixels replace a traditional photoshoot?",
-        "answer": "For many use cases, yes. Our portrait maker can generate full sets of portraits for weddings, travel, street shoots, maternity and social media content at a fraction of studio cost—without booking a photographer or a venue."
+        "question": "Is Grid Maker suitable as a photo grid maker for social media layouts?",
+        "answer": "Absolutely. Grid Maker works as a flexible photo grid maker and grid picture maker online. You can upload product shots, portraits, or lifestyle images, add guides to plan crops and compositions, then export references to use in your favorite editing app."
       },
       {
-        "question": "How does Smart Pixels ensure high-quality portrait results?",
-        "answer": "The platform integrates several cutting-edge image models. You can switch between them inside the ai portrait generator until you find the look you love, ensuring the best balance of detail, realism and style."
+        "question": "Is there a cost or account required to start?",
+        "answer": "You can begin using the core features of our grid maker online for free and without creating an account. Simply open the site, load your image, and generate a drawing grid in a few clicks."
       },
       {
-        "question": "Can Smart Pixels help me improve my prompts and editing ideas?",
-        "answer": "Yes. Smart Pixels offers prompt enhancers, prompt checkers, retouching suggestions and face-shape analysis to help you communicate better with the ai portrait generator and get consistent, high-quality portraits every time."
+        "question": "What export formats does Grid Maker support?",
+        "answer": "Grid Maker lets you save your work from the drawing grid maker in our grid maker online as high-resolution images or printable PDFs, depending on your needs. This makes it easy to keep references on screen, print them for tracing, or share them with students and collaborators."
       }
     ]
   },
   "cta": {
     "id": "cta",
-    "title": "Generate or Edit Your First Photo",
-    "description": "Start from here, create with Smart Pixels.",
+    "title": "Generate or Edit Your First Picture",
+    "description": "Start from here, create with Grid Maker.",
     "buttons": [
       {
         "title": "Get Started",
@@ -555,11 +406,11 @@
   "footer": {
     "id": "footer",
     "brand": {
-      "title": "Smart Pixels",
-      "description": "Smart Pixels is an ai portrait generator & editor that transforms everyday photos into stunning, studio-quality portraits with advanced portrait ai tools.",
+      "title": "Grid Maker",
+      "description": "",
       "logo": {
         "src": "/logo.png",
-        "alt": "Smart Pixels"
+        "alt": "Grid Maker"
       },
       "url": "/"
     },
@@ -569,16 +420,8 @@
           "title": "Features",
           "children": [
             {
-              "title": "Portrait Retouch",
+              "title": "Grid Maker",
               "url": "/",
-              "target": "_self"
-            },
-            {
-              "title": "Nano Banana",
-              "target": "_self"
-            },
-            {
-              "title": "Seedream 4.0",
               "target": "_self"
             }
           ]
@@ -620,7 +463,7 @@
         {
           "title": "Email",
           "icon": "Mail",
-          "url": "mailto:support@smart-pixels.com",
+          "url": "mailto:support@gridmaker.pro",
           "target": "_self"
         }
       ]

@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Pricing for AI Portrait Generator & Editor | Smart Pixels",
+    "title": "Pricing for AI Portrait Generator & Editor | Grid Maker",
     "description": "Start with a plan for your AI image generation needs."
   },
   "pricing": {
     "id": "pricing",
-    "sr_only_title": "Smart Pixels Pricing",
+    "sr_only_title": "Grid Maker Pricing",
     "title": "Pricing",
     "description": "Limited time offer! Save 50% off all plans, generating each image costs as low as $0.03.",
     "groups": [
@@ -55,7 +55,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter",
-        "product_name": "Smart Pixels Boilerplate Starter",
+        "product_name": "Grid Maker Boilerplate Starter",
         "credits": 300,
         "valid_days": 0,
         "group": "one-time"
@@ -90,7 +90,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "standard",
-        "product_name": "Smart Pixels Boilerplate Standard",
+        "product_name": "Grid Maker Boilerplate Standard",
         "credits": 900,
         "valid_days": 0,
         "group": "one-time"
@@ -124,7 +124,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium",
-        "product_name": "Smart Pixels Boilerplate Premium",
+        "product_name": "Grid Maker Boilerplate Premium",
         "credits": 1800,
         "valid_days": 0,
         "group": "one-time"
@@ -158,7 +158,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter-monthly",
-        "product_name": "Smart Pixels Boilerplate Starter Monthly",
+        "product_name": "Grid Maker Boilerplate Starter Monthly",
         "credits": 300,
         "valid_days": 30,
         "group": "monthly",
@@ -194,7 +194,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "standard-monthly",
-        "product_name": "Smart Pixels Boilerplate Standard Monthly",
+        "product_name": "Grid Maker Boilerplate Standard Monthly",
         "credits": 900,
         "valid_days": 30,
         "group": "monthly",
@@ -229,7 +229,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-monthly",
-        "product_name": "Smart Pixels Boilerplate Premium Monthly",
+        "product_name": "Grid Maker Boilerplate Premium Monthly",
         "credits": 1800,
         "valid_days": 30,
         "group": "monthly",
@@ -264,7 +264,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter-yearly",
-        "product_name": "Smart Pixels Boilerplate Starter Annually",
+        "product_name": "Grid Maker Boilerplate Starter Annually",
         "credits": 3600,
         "valid_days": 365,
         "group": "yearly",
@@ -300,7 +300,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "standard-yearly",
-        "product_name": "Smart Pixels Boilerplate Standard Annually",
+        "product_name": "Grid Maker Boilerplate Standard Annually",
         "credits": 10800,
         "valid_days": 365,
         "group": "yearly",
@@ -335,7 +335,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-yearly",
-        "product_name": "Smart Pixels Boilerplate Premium Annually",
+        "product_name": "Grid Maker Boilerplate Premium Annually",
         "credits": 21600,
         "valid_days": 365,
         "group": "yearly",

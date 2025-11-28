@@ -619,12 +619,9 @@ export function MusicGenerator({ className, srOnlyTitle }: SongGeneratorProps) {
                         credits: user?.credits?.remainingCredits || 0,
                       })}
                     </span>
-                    <Link href="/pricing">
-                      <Button className="w-full" size="lg" variant="outline">
-                        <CreditCard className="size-4" />{' '}
-                        {t('generator.buy_credits')}
-                      </Button>
-                    </Link>
+                    <div className="rounded-lg border border-dashed px-3 py-2 text-center text-xs text-muted-foreground">
+                      Grid Maker is free to use—no pricing page required.
+                    </div>
                   </div>
                 )}
 

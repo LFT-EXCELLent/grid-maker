@@ -17,7 +17,7 @@ export default async function LandingPage({
   // build page params
   const page: Landing = {
     hero: t.raw('hero'),
-    portrait_retouch_editor: t.raw('portrait_retouch_editor'),
+    grid_maker: t.raw('grid_maker'),
     usage: t.raw('usage'),
     introduce: t.raw('introduce'),
     benefits: t.raw('benefits'),

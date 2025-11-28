@@ -1,60 +1,60 @@
 {
   "metadata": {
-    "title": "AI 人像生成器与编辑器案例 ｜ Smart Pixels",
-    "description": "以最低成本打造最完美的照片集"
+    "title": "Grid Maker 案例 ｜ 在线绘图网格工具",
+    "description": "看看创作者如何用 Grid Maker 为参考图添加精确网格，用于绘画、素描与排版。"
   },
   "showcases": {
     "id": "showcase",
     "sr_only_title": "案例展示",
-    "title": "使用 Smart Pixels 的 AI 人像生成器与编辑器",
-    "description": "效果媲美影棚，价格仅为传统摄影的十分之一。",
+    "title": "Grid Maker 在不同场景的应用",
+    "description": "从人像到产品，探索这款在线网格工具如何帮助规划比例、构图与转绘，无需手工量格子。",
     "items": [
       {
-        "title": "影棚肖像",
-        "description": "AI 影棚肖像生成器",
+        "title": "人像参考",
+        "description": "在人像上叠加清晰网格，保持从草稿到成品的面部比例一致。",
         "image": {
           "src": "/imgs/cases/1.png",
-          "alt": "影棚肖像"
+          "alt": "带网格的人像参考"
         }
       },
       {
-        "title": "婴儿肖像",
-        "description": "AI 婴儿肖像生成器",
+        "title": "产品与静物",
+        "description": "用在线网格工具排列物品和留白，适用于电商图、缩略图与包装草稿。",
         "image": {
           "src": "/imgs/cases/2.png",
-          "alt": "婴儿肖像"
+          "alt": "产品网格叠加"
         }
       },
       {
-        "title": "旅行摄影",
-        "description": "AI 旅行摄影生成器",
+        "title": "旅行与风景",
+        "description": "用网格拆解透视、地平线与焦点，便于外景写生或旅行速写。",
         "image": {
           "src": "/imgs/cases/3.png",
-          "alt": "旅行摄影"
+          "alt": "风景网格叠加"
         }
       },
       {
-        "title": "婚礼摄影",
-        "description": "AI 婚礼摄影生成器",
+        "title": "婚礼与活动",
+        "description": "为叙事相册与社交发布规划均衡构图，保持统一取景。",
         "image": {
           "src": "/imgs/cases/4.png",
-          "alt": "婚礼摄影"
+          "alt": "活动照片网格叠加"
         }
       },
       {
-        "title": "自拍修图",
-        "description": "AI 自拍修图编辑器",
+        "title": "手绘练习",
+        "description": "学生与新手用网格训练眼手协调，准确落笔与转绘。",
         "image": {
           "src": "/imgs/cases/5.png",
-          "alt": "自拍修图"
+          "alt": "素描练习网格"
         }
       },
       {
-        "title": "孕妇摄影",
-        "description": "AI 孕妇摄影生成器",
+        "title": "亲子与家庭",
+        "description": "叠加柔和网格，保留表情与比例，适合温馨肖像参考。",
         "image": {
           "src": "/imgs/cases/6.png",
-          "alt": "孕妇摄影"
+          "alt": "家庭肖像网格"
         }
       }
     ]

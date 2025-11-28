@@ -679,12 +679,9 @@ export function ImageGenerator({
                         {t('credits_remaining', { credits: remainingCredits })}
                       </span>
                     </div>
-                    <Link href="/pricing">
-                      <Button variant="outline" className="w-full" size="lg">
-                        <CreditCard className="mr-2 h-4 w-4" />
-                        {t('buy_credits')}
-                      </Button>
-                    </Link>
+                    <div className="rounded-lg border border-dashed p-3 text-center text-sm text-muted-foreground">
+                      Grid Maker is free to use—no pricing page required.
+                    </div>
                   </div>
                 )}
 

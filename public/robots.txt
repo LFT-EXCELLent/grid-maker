@@ -13,4 +13,4 @@ Disallow: /zh/sign-up
 Disallow: /no-permission
 Disallow: /zh/no-permission
 
-Sitemap: https://smart-pixels.com/sitemap.xml
+Sitemap: https://gridmaker.pro/sitemap.xml

@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "聚焦 AI 人像生成与编辑的博客 ｜ Smart Pixels",
-    "description": "定期分享有趣、热门的 AI 人像玩法，展示优秀提示词与作品，播报 AI 图像领域最新动态"
+    "title": "Grid Maker 博客 ｜ 在线绘图网格工具",
+    "description": "分享使用 Grid Maker 为图片添加精确网格的指南、技巧与案例，帮助绘画、素描和排版更高效。"
   },
   "blog": {
     "id": "blog",
-    "sr_only_title": "Smart Pixels 博客",
-    "title": "Smart Pixels 博客",
-    "description": "定期分享有趣、热门的 AI 人像玩法，展示优秀提示词与作品，\n播报 AI 图像领域最新动态"
+    "sr_only_title": "Grid Maker 博客",
+    "title": "Grid Maker 博客",
+    "description": "发现我们的在线网格工具的工作流、预设与可打印参考，以及关于比例、构图与转绘的最佳实践。"
   },
   "page": {
     "all": "全部",

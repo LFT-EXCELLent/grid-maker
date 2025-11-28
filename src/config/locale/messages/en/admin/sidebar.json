@@ -1,10 +1,10 @@
 {
   "header": {
     "brand": {
-      "title": "Smart Pixels",
+      "title": "Grid Maker",
       "logo": {
         "src": "/logo.png",
-        "alt": "Smart Pixels"
+        "alt": "Grid Maker"
       },
       "url": "/admin"
     },
@@ -131,7 +131,7 @@
         },
         {
           "title": "Email",
-          "url": "mailto:support@smart-pixels.com",
+          "url": "mailto:support@gridmaker.pro",
           "icon": "Mail",
           "target": "_blank"
         }

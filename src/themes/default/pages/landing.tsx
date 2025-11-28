@@ -7,9 +7,9 @@ import {
   FeaturesList,
   FeaturesStep,
   Hero,
-  PortraitRetouchEditor,
   Stats,
   Testimonials,
+  GridMaker,
 } from '@/themes/default/blocks';
 
 export default async function LandingPage({
@@ -22,9 +22,7 @@ export default async function LandingPage({
   return (
     <>
       {page.hero && <Hero hero={page.hero} />}
-      {page.portrait_retouch_editor && (
-        <PortraitRetouchEditor portraitRetouch={page.portrait_retouch_editor} />
-      )}
+      {page.grid_maker && <GridMaker gridMaker={page.grid_maker} />}
       {page.usage && <FeaturesStep features={page.usage} />}
       {page.introduce && <FeaturesList features={page.introduce} />}
       {page.benefits && <FeaturesAccordion features={page.benefits} />}

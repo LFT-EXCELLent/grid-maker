@@ -102,6 +102,8 @@ export interface Testimonials extends Section {
 
 export interface PortraitRetouchEditor extends Section {}
 
+export interface GridMaker extends Section {}
+
 // landing props for landing page component
 export interface Landing {
   header?: Header;
@@ -118,6 +120,6 @@ export interface Landing {
   cta?: CTA;
   testimonials?: Testimonials;
   footer?: Footer;
-  portrait_retouch_editor?: PortraitRetouchEditor;
+  grid_maker?: GridMaker;
   sections?: Section[];
 }

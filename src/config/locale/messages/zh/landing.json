@@ -2,88 +2,16 @@
   "header": {
     "id": "header",
     "brand": {
-      "title": "Smart Pixels",
-      "logo": {
-        "src": "/logo.png",
-        "alt": "Smart Pixels"
-      },
+      "title": "Grid Maker",
+      "logo": { "src": "/logo.png", "alt": "Grid Maker" },
       "url": "/"
     },
     "nav": {
       "items": [
-        {
-          "title": "人像润饰",
-          "url": "/",
-          "icon": "RiImage2Line"
-        },
-        {
-          "title": "AI 工具",
-          "icon": "Sparkles",
-          "children": [
-            {
-              "dropdown_title": "AI 图像模型",
-              "layout": "single",
-              "items": [
-                {
-                  "title": "Nano Banana",
-                  "description": "使用 Nano Banana 进行人像润饰",
-                  "icon": "RiImage2Line",
-                  "badge": "即将上线"
-                },
-                {
-                  "title": "Seedream 4.0",
-                  "description": "使用 Seedream 4.0 进行人像润饰",
-                  "icon": "RiImage2Line",
-                  "badge": "即将上线"
-                }
-              ]
-            },
-            {
-              "dropdown_title": "通用工具",
-              "layout": "single",
-              "items": [
-                {
-                  "title": "水印移除",
-                  "description": "移除图片水印",
-                  "icon": "RiImage2Line",
-                  "badge": "即将上线"
-                },
-                {
-                  "title": "图片超分",
-                  "description": "提升图片分辨率",
-                  "icon": "RiImage2Line",
-                  "badge": "即将上线"
-                },
-                {
-                  "title": "背景移除",
-                  "description": "移除图片背景",
-                  "icon": "RiImage2Line",
-                  "badge": "即将上线"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "案例展示",
-          "url": "/showcases",
-          "icon": "Box"
-        },
-        {
-          "title": "价格",
-          "url": "/pricing",
-          "icon": "DollarSign"
-        },
-        {
-          "title": "博客",
-          "url": "/blog",
-          "icon": "Newspaper"
-        },
-        {
-          "title": "文档",
-          "url": "/docs",
-          "icon": "BookOpenText"
-        }
+        { "title": "Grid Maker", "url": "/", "icon": "RiImage2Line" },
+        { "title": "案例展示", "url": "/showcases", "icon": "Box" },
+        { "title": "博客", "url": "/blog", "icon": "Newspaper" },
+        { "title": "文档", "url": "/docs", "icon": "BookOpenText" }
       ]
     },
     "buttons": [],
@@ -92,37 +20,24 @@
       "show_credits": true,
       "show_sign_out": true,
       "items": [
-        {
-          "title": "账单",
-          "url": "/settings/billing",
-          "icon": "CreditCard"
-        },
-        {
-          "title": "活动",
-          "url": "/activity",
-          "icon": "Activity"
-        }
+        { "title": "账单", "url": "/settings/billing", "icon": "CreditCard" },
+        { "title": "活动", "url": "/activity", "icon": "Activity" }
       ]
     },
-    "show_sign": true,
+    "show_sign": false,
     "show_theme": true,
     "show_locale": true
   },
   "hero": {
     "id": "hero",
-    "title": "一键体验 AI 人像魔法",
-    "highlight_text": "AI 人像",
-    "description": "Smart Pixels 是一款 AI 人像生成与编辑工具，可将日常照片变成适用于婚礼、旅行、孕照、宠物等场景的专业级摄影。",
-    "announcement": {
-      "badge": "全新",
-      "title": "🎉 点击享受 50% 折扣",
-      "url": "/pricing"
-    },
+    "title": "Grid Maker - 为你的创作生成网格",
+    "highlight_text": "Grid Maker",
+    "description": "Grid Maker 帮你为作品生成精确网格。",
     "buttons": [
       {
         "title": "开始使用",
         "icon": "Zap",
-        "url": "/#portrait-retouch-editor",
+        "url": "/#grid-maker",
         "target": "_self",
         "variant": "default"
       },
@@ -135,414 +50,285 @@
       }
     ],
     "show_avatars": true,
-    "avatars_tip": "999+ 位用户正在使用 Smart Pixels",
+    "avatars_tip": "999+ 位用户正在使用 Grid Maker",
     "show_award": false
   },
-  "portrait_retouch_editor": {
-    "id": "portrait-retouch-editor",
-    "title": "AI 人像生成器设置",
-    "description": "上传你的照片，选择增强项，并生成 AI 润饰的人像。",
-    "result_title": "生成结果",
+  "grid_maker": {
+    "id": "grid-maker",
+    "title": "绘图网格工具",
+    "description": "上传图片，叠加精确网格，几秒生成可打印参考。",
     "upload": {
-      "label": "上传图片",
-      "selected": "已选 {count}/{max} 张图片",
-      "add_more": "继续添加"
+      "title": "上传参考图",
+      "description": "拖拽或选择本地文件，所有处理都在浏览器内完成。",
+      "button": "上传图片",
+      "hint": "支持 JPG、PNG、WebP（最多 15MB）",
+      "replace": "重新上传"
     },
-    "beauty": {
-      "title": "美化增强",
-      "groups": {
-        "general": {
-          "label": "通用",
-          "options": [
-            {
-              "label": "背景虚化"
-            },
-            {
-              "label": "补光"
-            }
-          ]
-        },
-        "face_shape": {
-          "label": "脸型",
-          "options": [
-            {
-              "label": "瘦脸"
-            },
-            {
-              "label": "去双下巴"
-            },
-            {
-              "label": "身形塑形"
-            }
-          ]
-        },
-        "skin": {
-          "label": "肌肤",
-          "options": [
-            {
-              "label": "柔化肤质"
-            },
-            {
-              "label": "去皱"
-            },
-            {
-              "label": "去瑕疵"
-            },
-            {
-              "label": "提亮肤色"
-            },
-            {
-              "label": "去油光"
-            }
-          ]
-        },
-        "eyes": {
-          "label": "五官",
-          "options": [
-            {
-              "label": "睁眼修复"
-            },
-            {
-              "label": "去黑眼圈"
-            },
-            {
-              "label": "去红眼"
-            },
-            {
-              "label": "眼部润饰"
-            }
-          ]
-        },
-        "nose": {
-          "label": "鼻部",
-          "options": [
-            {
-              "label": "鼻部润饰"
-            }
-          ]
-        },
-        "mouth_teeth": {
-          "label": "口唇与牙齿",
-          "options": [
-            {
-              "label": "口唇润饰"
-            },
-            {
-              "label": "牙齿修复"
-            }
-          ]
-        },
-        "hair": {
-          "label": "发丝",
-          "options": [
-            {
-              "label": "柔化发丝"
-            },
-            {
-              "label": "增强发丝光泽"
-            }
-          ]
-        },
-        "artifacts_removal": {
-          "label": "瑕疵去除",
-          "options": [
-            {
-              "label": "眼镜反光去除"
-            },
-            {
-              "label": "去除纹身"
-            }
-          ]
-        }
-      }
+    "grid_settings": {
+      "title": "网格设置",
+      "grid_type_label": "网格类型",
+      "types": { "custom": "自定义", "square": "正方形" },
+      "rows": "行数",
+      "columns": "列数",
+      "line_color": "线条颜色",
+      "line_opacity": "线条透明度",
+      "line_width": "线条宽度",
+      "show_labels": "显示网格标签（A1、B2 等）",
+      "square_helper": "按行列比例对齐为正方形画布。"
     },
-    "other_prompt_label": "其他照片编辑提示词",
-    "other_prompt_placeholder": "例如：更换服饰、调整姿势、添加配饰等",
-    "counter_format": "{count}/2000",
-    "model": {
-      "label": "选择模型",
-      "options": {
-        "google/nano-banana": "Nano Banana AI",
-        "bytedance/seedream-4": "Seedream 4.0"
-      }
+    "paper": {
+      "title": "纸张格式",
+      "subtitle": "选择你的绘图纸尺寸（mm）",
+      "select_label": "选择格式",
+      "custom_width": "宽度（{unit}）",
+      "custom_height": "高度（{unit}）"
     },
-    "buttons": {
-      "generate": "生成润饰",
-      "regenerate": "重新生成",
-      "download": "下载"
+    "preview": {
+      "title": "网格预览",
+      "convert_bw": "转换为黑白",
+      "revert_color": "恢复原色",
+      "download": "下载网格图",
+      "rendering": "正在渲染...",
+      "empty_hint": "上传图片即可查看网格覆盖效果。"
     },
-    "status": {
-      "pending": "等待模型启动",
-      "processing": "正在为你生成图片...",
-      "success": "图片生成完成",
-      "failed": "生成失败"
+    "printing": {
+      "title": "打印指引",
+      "format_line": "对于 {name} 纸张（{width}×{height}{unit}）：",
+      "vertical": "绘制 {count} 条竖线，间距 {interval}{unit}",
+      "horizontal": "绘制 {count} 条横线，间距 {interval}{unit}",
+      "labels": "将网格标注为 A1 至 {lastLabel}"
     },
     "helper": {
-      "max_size": "每张图片最大 15MB",
-      "requirement": "请至少上传一张图片，并添加美化选项或提示词。"
+      "max_size": "单张最多 15MB",
+      "drag_tip": "拖拽图片到此或点击选择文件"
     }
   },
   "introduce": {
     "id": "introduce",
-    "title": "Smart Pixels 是什么？",
-    "label": "产品简介",
-    "description": "Smart Pixels 是一款先进的 AI 人像生成器与一体化人像制作工具，旨在替代传统影楼与昂贵的专业拍摄。只需一键，即可将日常照片变为惊艳的影棚级人像摄影——成本低至传统拍摄的 1%。",
-    "image": {
-      "src": "/imgs/cases/1.png",
-      "alt": "Smart Pixels"
-    },
+    "title": "什么是 Grid Maker？",
+    "label": "介绍",
+    "description": "Grid Maker 是一款快速的在线网格工具，可让你上传任意图片、叠加精确的绘图网格，并在几秒内下载可用参考。作为灵活的绘图网格工具，它完全在浏览器中运行，让你专注比例和构图，而不是手工量格子。",
+    "image": { "src": "/imgs/landing/1.png", "alt": "Grid Maker" },
     "items": [
       {
-        "title": "完美人像润饰",
-        "description": "Smart Pixels 的 AI 人像生成器通过专业的皮肤、光效与背景一键优化面部。",
+        "title": "上传任意图片",
+        "description": "把参考照片、草图或截图一键叠加清晰网格，作为绘图网格参考。",
         "icon": "RiImage2Line"
       },
       {
-        "title": "人像摄影套组",
-        "description": "从你的照片直接生成婚礼、旅行、街拍或证件照等完整套组。",
+        "title": "几秒完成自定义网格",
+        "description": "设置行列、线宽、单位并保存常用预设。无论缩略图还是海报，都能保持网格一致。",
         "icon": "RiDatabase2Line"
       },
       {
-        "title": "智能 AI 编辑辅助",
-        "description": "提供自动建议、预设与修复，让每张人像都具备专业指导，无需学习成本。",
+        "title": "随时在浏览器使用",
+        "description": "纯在线，无需下载或更新。桌面、平板、手机都能打开，设置随设备流转。",
         "icon": "RiCloudyFill"
       },
       {
-        "title": "即开即用，无需配置",
-        "description": "几秒开始——上传、选择风格，让我们的 AI 人像生成器完成其余工作，获得影棚级效果。",
+        "title": "智能辅助，更好结果",
+        "description": "贴合常用比例，预览不同网格密度，快速对比版本，让工具处理技术细节，你专注创作。",
         "icon": "RiRobot2Line"
       }
     ]
   },
   "benefits": {
     "id": "benefits",
-    "title": "为什么选择 Smart Pixels",
-    "label": "产品优势",
-    "description": "由先进的人像 AI 驱动，以不到传统摄影 1% 的成本呈现完整写真效果。",
+    "title": "为什么选择 Grid Maker",
+    "label": "优势",
+    "description": "无论你是画师、设计师、老师还是创作者，Grid Maker 将传统网格法变成顺畅的数字流程，省时且更精确。",
     "items": [
       {
-        "title": "简单的人像 AI 润饰",
-        "description": "Smart Pixels 提供强大的人像 AI 润饰预设——瘦脸、磨皮、背景虚化、面部补光等。无需切换多个应用；一切为更好效果、更低积分消耗与零负担而优化。",
+        "title": "专注绘画，不再量格子",
+        "description": "无需反复划线，网格即时对齐，让你把精力放在形体、明暗和表达上。",
         "icon": "RiNextjsFill",
         "image": {
-          "src": "/imgs/landing/1.png",
-          "alt": "AI 人像润饰"
+          "src": "/imgs/landing/2.png",
+          "alt": "使用 Grid Maker 的绘图参考"
         }
       },
       {
-        "title": "专业摄影，重新定义",
-        "description": "使用我们的 AI 人像生成器即时创建完整人像套组：旅行、街拍、证件照、婚礼、孕照、宠物、主题写真等。效果媲美影棚级摄影，成本仅为其一小部分。",
+        "title": "适配每个项目的参考",
+        "description": "从人像、风景到产品与缩略图，干净网格可随画布缩放，准备任何媒介的精确参考。",
         "icon": "RiClapperboardAiLine",
         "image": {
           "src": "/imgs/landing/2.png",
-          "alt": "专业摄影"
+          "alt": "人像参考上的网格"
         }
       },
       {
-        "title": "100+ AI 工具用于人像创作与编辑",
-        "description": "获取丰富的人像生成与编辑工具：背景移除、质量增强、提示模板，以及多款顶级图像模型，确保无论是全新人像还是图片编辑都获得最强输出。",
+        "title": "快速且灵活",
+        "description": "微调间距，切换公制/英制，调整透明度到舒适视图，界面实时响应。",
         "icon": "RiCodeFill",
         "image": {
-          "src": "/imgs/landing/3.png",
-          "alt": "人像创作与编辑"
+          "src": "/imgs/landing/2.png",
+          "alt": "网格设置面板"
         }
       },
       {
-        "title": "免费工具提升工作流",
-        "description": "提供辅助免费工具，包括格式转换器、润饰建议、提示词优化器、人脸形状分析等——在一个地方完成完整的人像创作工作流。",
+        "title": "一套工具兼顾纸张与屏幕",
+        "description": "可导出打印指引，也可作为数字叠加参考。同一工具服务手绘和数码场景。",
         "icon": "RiRobot2Line",
         "image": {
-          "src": "/imgs/landing/4.png",
-          "alt": "人像创作免费工具"
+          "src": "/imgs/landing/2.png",
+          "alt": "打印网格与数码参考"
         }
       }
     ]
   },
   "usage": {
     "id": "usage",
-    "title": "如何使用 Smart Pixels 创作",
-    "description": "只需四步，让你的 AI 人像生成器运行起来：",
+    "title": "如何用 Grid Maker 创作",
+    "description": "按以下步骤开始精准创作，几分钟完成网格。",
     "image_position": "left",
     "text_align": "center",
     "items": [
       {
-        "title": "上传你的人像",
-        "description": "上传清晰的人像照片——如果想换装，也可上传服装图片——让我们的 AI 人像生成器提供最佳效果。"
+        "title": "上传或空白开始",
+        "description": "在浏览器中打开 Grid Maker，上传参考照片、截图或草图；也可从空白背景开始自定义布局。"
       },
       {
-        "title": "选择美化增强",
-        "description": "从我们的人像 AI 预设中选择，立即改善肤质、光效与整体美感。"
+        "title": "选择网格设置",
+        "description": "设定行列数，选择像素/厘米/英寸等单位，调整线色和线宽，适配任意绘画风格。"
       },
       {
-        "title": "添加可选需求",
-        "description": "输入额外需求，如换装、调整姿势或添加配饰，获得更个性化的效果。"
+        "title": "预览并应用网格",
+        "description": "在预览中调整间距或透明度，满意后锁定。实时预览让每次修改都清晰可见。"
       },
       {
-        "title": "生成你的人像",
-        "description": "选择模型并点击生成润饰。我们的人像制作器将创建精致的影棚级人像，可随时保存或分享。"
+        "title": "下载、打印或分享",
+        "description": "导出高分辨率文件，可用于打印、屏幕参考或分享给学生、客户与协作者。"
       }
     ]
   },
   "features": {
     "id": "features",
-    "title": "Smart Pixels 核心功能",
-    "description": "AI 人像生成器与编辑器——一站式解决方案",
+    "title": "Grid Maker 的关键特性",
+    "description": "轻量而强大的在线网格工具，提供所需控制但避免复杂性。",
     "items": [
       {
-        "title": "专业人像润饰",
-        "description": "Smart Pixels 使用先进的人像 AI 分析面部特征，呈现自然、讨喜的修饰——不过度，始终真实动人。",
+        "title": "纯浏览器，无需安装",
+        "description": "在任何现代设备上使用，始终是最新版本，无需下载或登录。",
         "icon": "RiNextjsFill"
       },
       {
-        "title": "即时写真合集",
-        "description": "借助我们的 AI 人像生成器与完整写真方案，你可在数秒内创建风格化、精修并可直接分享的完整人像套组，节省时间与成本。",
+        "title": "专业级精度控制",
+        "description": "数值化调节行、列与边距，精准缩放人像、环境与设计布局。",
         "icon": "RiKey2Fill"
       },
       {
-        "title": "多款前沿图像模型",
-        "description": "自由切换行业最先进的图像模型，确保你的人像、编辑与创意输出始终达到最高品质。",
+        "title": "保存与复用预设",
+        "description": "存下常用画布、课堂练习或客户模板，秒级调用，流程更顺畅。",
         "icon": "RiDatabase2Line"
       },
       {
-        "title": "20+ 通用编辑工具",
-        "description": "从背景移除与模糊到图像增强、超分、水印去除、老照片修复与风格迁移——Smart Pixels 一站式提供。",
+        "title": "灵活导出",
+        "description": "下载 PNG/JPG 或可打印 PDF，同一套网格适配速写本、画布与数码平板。",
         "icon": "RiCloudy2Fill"
       },
       {
-        "title": "100+ 人像编辑工具",
-        "description": "作为强大的人像制作工具，Smart Pixels 提供瘦脸、AI 润饰、去皱、身形编辑、AI 换装，以及季节与主题模板，快速获得惊艳效果。",
+        "title": "优化图片与照片",
+        "description": "既可规划写实人像，也可用于社交拼版，保持细节又提供清晰参考线。",
         "icon": "RiBarChart2Line"
       },
       {
-        "title": "20+ 创作支持工具",
-        "description": "用提示增强与提示检查提升生成效果，并搭配专家润饰建议、人脸形状分析等——让每一张人像更上一层楼。",
+        "title": "对新手友好的默认值",
+        "description": "提供合理预设与提示，新手几次点击即可得到干净参考，高手可直接自定义。",
         "icon": "RiRobot2Line"
       }
     ]
   },
   "stats": {
     "id": "stats",
-    "title": "用户喜爱 Smart Pixels",
-    "description": "因为其强大的 AI 人像生成器与编辑器。",
+    "title": "大家都在用 Grid Maker",
+    "description": "全球创作者依赖这款在线网格工具简化网格法、保持精度。",
     "items": [
-      {
-        "title": "999+",
-        "description": "位客户"
-      },
-      {
-        "title": "100+",
-        "description": "款工具"
-      },
-      {
-        "title": "200+",
-        "description": "套预设"
-      }
+      { "title": "9999+", "description": "用户" },
+      { "title": "100+", "description": "网格模板与预设" },
+      { "title": "200+", "description": "服务的国家与地区" }
     ]
   },
   "testimonials": {
     "id": "testimonials",
-    "title": "用户对 Smart Pixels 的评价",
-    "description": "听听用户如何用 Smart Pixels 生成或编辑他们的人像照片。",
+    "title": "用户对 Grid Maker 的评价",
+    "description": "",
     "items": [
       {
         "name": "Ava Mitchell",
-        "role": "YouTuber",
-        "quote": "作为 YouTuber，我经常要更新缩略图和频道封面。Smart Pixels 的 AI 人像生成器能在几分钟内让我在家里灯光下得到影棚感的肖像。人像 AI 润饰恰到好处，不夸张不假面，我不必为每次发布视频都去找摄影师。",
-        "image": {
-          "src": "/imgs/avatars/1.png",
-          "alt": "david"
-        }
+        "role": "插画师 & 素描讲师",
+        "quote": "Grid Maker 是我推荐给每位新生的在线网格工具。它去掉了繁琐的准备，让学生专注结构、明暗和自信线条。",
+        "image": { "src": "/imgs/avatars/1.png", "alt": "david" }
       },
       {
         "name": "Rachel Kim",
-        "role": "INS 网红",
-        "quote": "我运营一个极具审美的 Instagram 主页，Smart Pixels 基本成了我的秘密人像制作器。我可以把随机的咖啡馆自拍变成风格统一、像杂志封面一样的照片。它的预设和模板让我不用在 Photoshop 里耗费数小时就能保持主页风格统一。",
-        "image": {
-          "src": "/imgs/avatars/2.png",
-          "alt": "rachel"
-        }
+        "role": "人像艺术家",
+        "quote": "作为人像绘制的网格工具，Grid Maker 让我从草图到画布比例一致。调网格、导出参考都很快。",
+        "image": { "src": "/imgs/avatars/2.png", "alt": "rachel" }
       },
       {
         "name": "Marcus Thompson",
-        "role": "TikTok 创作者",
-        "quote": "作为 TikTok 创作者，我常常需要视频封面和宣传图。Smart Pixels 让我把手机随手拍变成一键精修的人像。AI 人像生成器加上一些小工具（比如皮肤和光线微调）让我的主页看起来更专业。",
-        "image": {
-          "src": "/imgs/avatars/3.png",
-          "alt": "marcus"
-        }
+        "role": "概念艺术家",
+        "quote": "Grid Maker 的绘图网格已经融入我的日常流程。我常驻一个标签页，丢入参考照，一分钟内就有干净网格。",
+        "image": { "src": "/imgs/avatars/3.png", "alt": "marcus" }
       },
       {
         "name": "Sofia Garcia",
-        "role": "模特",
-        "quote": "我用 Smart Pixels 在试拍之间刷新作品集。AI 人像生成器保持我的五官真实，同时清理皮肤、背景和光效。它更像一个数码助理而不是滤镜——非常适合在不预约影棚的情况下，快速生成新的作品卡照片。",
-        "image": {
-          "src": "/imgs/avatars/4.png",
-          "alt": "sofia"
-        }
+        "role": "艺术学生",
+        "quote": "以前不敢画写实，试了这个在线网格工具后，清晰格子把复杂场景拆成简单形状，轻松多了。",
+        "image": { "src": "/imgs/avatars/4.png", "alt": "sofia" }
       },
       {
         "name": "James Wilson",
-        "role": "个人品牌",
-        "quote": "作为自由设计师，我需要为网站、LinkedIn 和提案准备好头像，但没有总是拍照的时间。Smart Pixels 就像一个个人人像制作器：我上传普通照片，试几种风格，人像 AI 就给出与我的品牌匹配的专业形象。",
-        "image": {
-          "src": "/imgs/avatars/5.png",
-          "alt": "james"
-        }
+        "role": "内容创作者 & 摄影师",
+        "quote": "Grid Maker 也是我的照片网格工具，规划轮播与故事排版时保持平衡，图片依然清晰。",
+        "image": { "src": "/imgs/avatars/5.png", "alt": "james" }
       },
       {
         "name": "Sophia Reynolds",
-        "role": "准妈妈",
-        "quote": "我想要漂亮的孕照，但不太想做大型影棚拍摄。用 Smart Pixels 的 AI 人像生成器，我把在家拍的简单照片变成柔和、梦幻的孕期人像。效果像专业拍摄，而且我可以在家里尝试不同的风格与服装。",
-        "image": {
-          "src": "/imgs/avatars/6.png",
-          "alt": "anna"
-        }
+        "role": "高中美术教师",
+        "quote": "课堂从入门练习到期末项目都用这个在线网格工具。学生几分钟上手，我也省下准备参考的时间。",
+        "image": { "src": "/imgs/avatars/6.png", "alt": "anna" }
       }
     ]
   },
   "faq": {
     "id": "faq",
-    "title": "关于 Smart Pixels 的常见问题",
-    "description": "还有其他问题？通过邮箱联系我们。",
-    "tip": "没有找到想要的内容？请通过 <a href='mailto:support@smart-pixels.com' target='_blank' class='text-primary font-medium hover:underline'>客服邮箱</a> 联系我们",
+    "title": "关于 Grid Maker 的常见问题",
+    "description": "还有疑问？欢迎邮件联系我们。",
+    "tip": "找不到答案？<a href='mailto:support@gridmaker.pro' target='_blank' class='text-primary font-medium hover:underline'>联系客服</a>",
     "items": [
       {
-        "question": "Smart Pixels 是什么？",
-        "answer": "Smart Pixels 是一款在线的 AI 人像生成器与人像制作工具，可将日常照片转为专业、影棚风格的人像。它面向证件照、婚礼、孕照、宠物、社交内容等多种场景。"
+        "question": "Grid Maker 是什么？在线网格工具怎么用？",
+        "answer": "Grid Maker 是基于浏览器的在线网格工具，你可以上传图片、叠加可定制网格，并下载参考文件。打开网站、设定参数，工具即刻生成干净的辅助线，帮助精准转绘与缩放。"
       },
       {
-        "question": "Smart Pixels 与其他 AI 修图应用有何不同？",
-        "answer": "不同于通用滤镜，Smart Pixels 专注人像 AI。它理解面部、身形与光线，并应用自然、讨喜的修饰——让你的人像看起来更像专业拍摄，而不是过度处理。"
+        "question": "需要下载软件吗？",
+        "answer": "不需要。Grid Maker 完全在浏览器运行，无需安装；任意设备联网即可访问同一网格工具。"
       },
       {
-        "question": "使用 Smart Pixels 需要修图经验吗？",
-        "answer": "不需要。Smart Pixels 面向非专业用户。只需上传照片，选择风格或模板，我们的 AI 人像生成器会处理润饰、背景与光效。创作者与新手都能几次点击获得专业效果。"
+        "question": "能用于纸质绘图吗？",
+        "answer": "可以。许多画师把 Grid Maker 当作纸上绘图网格：给参考图加网格，下载或打印，然后在纸上用尺子画出同样间距。"
       },
       {
-        "question": "Smart Pixels 能替代传统拍摄吗？",
-        "answer": "在很多场景下可以。我们的 人像制作器 能以极低成本生成婚礼、旅行、街拍、孕照和社交媒体内容等完整人像套组，无需预约摄影师或场地。"
+        "question": "适合做社交媒体排版吗？",
+        "answer": "完全可以。作为照片网格工具，你可以上传产品、人像或生活照，规划裁剪与构图，再导出参考用于常用的编辑软件。"
       },
       {
-        "question": "Smart Pixels 如何保证高质量的人像效果？",
-        "answer": "平台整合了多款前沿图像模型。你可以在 AI 人像生成器中自由切换直到找到最喜欢的风格，实现细节、真实与风格的最佳平衡。"
+        "question": "需要付费或账号吗？",
+        "answer": "核心功能可免费开始，无需创建账号。打开网站、加载图片、几次点击即可生成绘图网格。"
       },
       {
-        "question": "Smart Pixels 能帮我优化提示词与编辑思路吗？",
-        "answer": "可以。Smart Pixels 提供提示增强、提示检查、润饰建议和脸型分析，帮助你更好地与 AI 人像生成器沟通，并每次获得稳定、高质量的人像。"
+        "question": "支持哪些导出格式？",
+        "answer": "Grid Maker 可导出高分辨率图片或可打印参考（如 PDF/图像），方便屏上查看、打印或分享给学生与协作者。"
       }
     ]
   },
   "cta": {
     "id": "cta",
-    "title": "生成或编辑你的第一张照片",
-    "description": "从这里出发，用 Smart Pixels 创作。",
+    "title": "生成或编辑你的第一张图片",
+    "description": "从这里开始，用 Grid Maker 创作。",
     "buttons": [
-      {
-        "title": "开始使用",
-        "url": "/",
-        "target": "_blank",
-        "icon": "Zap"
-      },
+      { "title": "开始使用", "url": "/", "target": "_blank", "icon": "Zap" },
       {
         "title": "阅读文档",
         "url": "/docs",
@@ -555,52 +341,23 @@
   "footer": {
     "id": "footer",
     "brand": {
-      "title": "Smart Pixels",
-      "description": "Smart Pixels 是一款 AI 人像生成器与编辑器，借助先进的人像 AI 工具，将日常照片轻松变为影棚级人像。",
-      "logo": {
-        "src": "/logo.png",
-        "alt": "Smart Pixels"
-      },
+      "title": "Grid Maker",
+      "description": "",
+      "logo": { "src": "/logo.png", "alt": "Grid Maker" },
       "url": "/"
     },
     "nav": {
       "items": [
         {
           "title": "功能",
-          "children": [
-            {
-              "title": "人像润饰",
-              "url": "/",
-              "target": "_self"
-            },
-            {
-              "title": "Nano Banana",
-              "target": "_self"
-            },
-            {
-              "title": "Seedream 4.0",
-              "target": "_self"
-            }
-          ]
+          "children": [{ "title": "Grid Maker", "url": "/", "target": "_self" }]
         },
         {
           "title": "资源",
           "children": [
-            {
-              "title": "文档",
-              "url": "/docs",
-              "target": "_blank"
-            },
-            {
-              "title": "案例展示",
-              "url": "/showcases",
-              "target": "_blank"
-            },
-            {
-              "title": "博客",
-              "url": "/blog",
-              "target": "_blank"
-            }
+            { "title": "文档", "url": "/docs", "target": "_blank" },
+            { "title": "案例", "url": "/showcases", "target": "_blank" },
+            { "title": "博客", "url": "/blog", "target": "_blank" }
           ]
         },
         {
@@ -618,23 +375,17 @@
     "social": {
       "items": [
         {
-          "title": "邮箱",
+          "title": "Email",
           "icon": "Mail",
-          "url": "mailto:support@smart-pixels.com",
+          "url": "mailto:support@gridmaker.pro",
           "target": "_self"
         }
       ]
     },
     "agreement": {
       "items": [
-        {
-          "title": "隐私政策",
-          "url": "/privacy-policy"
-        },
-        {
-          "title": "服务条款",
-          "url": "/terms-of-service"
-        }
+        { "title": "隐私政策", "url": "/privacy-policy" },
+        { "title": "服务条款", "url": "/terms-of-service" }
       ]
     },
     "show_built_with": false,

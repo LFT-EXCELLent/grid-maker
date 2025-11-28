@@ -9,6 +9,8 @@ export * from './features-list';
 export * from './features-accordion';
 export * from './features-step';
 
+export * from './grid-maker/grid-maker';
+
 export * from './showcases';
 export * from './logos';
 export * from './stats';

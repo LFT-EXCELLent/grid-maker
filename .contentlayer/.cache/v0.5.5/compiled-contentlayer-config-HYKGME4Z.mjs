@@ -35,7 +35,7 @@ var require_siteMetadata = __commonJS({
       language: "en-us",
       theme: "system",
       // system, dark or light
-      siteUrl: "https://smart-pixels.com",
+      siteUrl: "https://gridmaker.pro",
       // siteRepo: '',
       siteLogo: `${process.env.BASE_PATH || ""}/static/images/logo.png`,
       socialBanner: `${process.env.BASE_PATH || ""}/static/images/twitter-card.png`,
