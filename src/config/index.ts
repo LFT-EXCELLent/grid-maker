@@ -23,6 +23,8 @@ export const envConfigs = {
   theme: process.env.NEXT_PUBLIC_THEME ?? 'default',
   appearance: process.env.NEXT_PUBLIC_APPEARANCE ?? 'system',
   locale: process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? 'en',
+  google_analytics_id:
+    process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID ?? 'G-ZRVQ9TMR2C',
   database_url: process.env.DATABASE_URL ?? '',
   database_provider: process.env.DATABASE_PROVIDER ?? 'postgresql',
   db_singleton_enabled: process.env.DB_SINGLETON_ENABLED || 'false',
