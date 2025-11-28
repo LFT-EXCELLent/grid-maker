@@ -28,4 +28,7 @@ export const envConfigs = {
   db_singleton_enabled: process.env.DB_SINGLETON_ENABLED || 'false',
   auth_url: process.env.AUTH_URL || process.env.NEXT_PUBLIC_APP_URL || '',
   auth_secret: process.env.AUTH_SECRET ?? '', // openssl rand -base64 32
+  // Enable Vercel Analytics by default; can be disabled via env
+  vercel_analytics_enabled:
+    process.env.NEXT_PUBLIC_VERCEL_ANALYTICS_ENABLED ?? 'true',
 };
